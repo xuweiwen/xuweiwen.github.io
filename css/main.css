@@ -1,65 +1,46 @@
-/* Basic reset */
-* {
+body {
+    font-family: 'Helvetica', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
-
-/* Body styling */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
-    color: #333;
     line-height: 1.6;
-    padding: 0 20px;
 }
 
-/* Header */
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
 }
 
-header h1 {
+h1, h2, h3 {
+    color: #000;
+    font-weight: 600;
     margin-bottom: 10px;
 }
 
-nav ul {
-    list-style: none;
-    padding: 0;
+p {
+    margin: 20px 0;
+    color: #555;
 }
 
-nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
-nav ul li a {
-    color: #fff;
+a {
+    color: #0066cc;
     text-decoration: none;
 }
 
-/* Section styling */
-.section {
-    margin: 20px 0;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+a:hover {
+    text-decoration: underline;
 }
 
-.section h2 {
-    margin-bottom: 15px;
-    color: #333;
+.project-section {
+    margin: 40px 0;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
 }
 
-/* Footer */
-footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #333;
-    color: #fff;
-    margin-top: 20px;
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
 }
