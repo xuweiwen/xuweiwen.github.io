@@ -1,91 +1,83 @@
-/* Basic reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body styling */
 body {
-    font-family: 'Helvetica', sans-serif;
-    background-color: #f9f9f9;
+    font-family: 'Arial', sans-serif;
+    background-color: #fff;
     color: #333;
-    margin: 0;
-    padding: 0;
     line-height: 1.6;
 }
 
-/* Container to center content */
 .container {
     width: 80%;
     margin: 0 auto;
     padding: 20px;
+    max-width: 900px;
 }
 
-/* Header without background bar */
 header {
-    margin: 40px 0;
     text-align: center;
+    padding: 40px 0;
 }
 
-/* Styling for the header content */
-.header-content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-/* Profile photo */
 .profile-photo {
-    border-radius: 50%;
-    margin-right: 20px;
     width: 150px;
     height: 150px;
+    border-radius: 50%;
     object-fit: cover;
+    margin-bottom: 20px;
 }
 
 h1 {
     font-size: 2.5rem;
-    color: #000;
-    font-weight: 600;
+    margin-bottom: 10px;
 }
 
 p {
-    margin: 20px 0;
-    color: #555;
-}
-
-/* Section styling */
-.project-section {
-    margin: 40px 0;
-    padding: 20px;
-    border-bottom: 1px solid #ddd;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
 }
 
 h2 {
-    font-size: 2rem;
-    color: #333;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
 }
 
-/* Footer styling without background bar */
-footer {
-    margin: 40px 0;
-    text-align: center;
-    font-size: 0.9rem;
-    color: #666;
+ul {
+    list-style-type: none;
+    padding-left: 0;
 }
 
-/* Responsive design for smaller screens */
+ul li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
 @media (max-width: 768px) {
     .container {
-        width: 95%;
+        width: 90%;
     }
 
-    .header-content {
-        flex-direction: column;
+    h1 {
+        font-size: 2rem;
     }
 
-    .profile-photo {
-        margin-bottom: 20px;
+    h2 {
+        font-size: 1.6rem;
     }
 }
