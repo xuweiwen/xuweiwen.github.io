@@ -11,7 +11,7 @@
 
 **Wei Xu**, Charles James Wagner, Junjie Luo, Qi Guo
 
-IEEE / CVF Computer Vision and Pattern Recognition Conference (CVPR), 2025
+IEEE/CVF Computer Vision and Pattern Recognition Conference (CVPR), 2025
 
 [[Project page](https://blurry-edges.qiguo.org/)] [[arXiv](https://arxiv.org/abs/2503.23606)] [[Code](https://github.com/guo-research-group/Blurry-Edges)]
 </div>
