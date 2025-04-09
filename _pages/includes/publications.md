@@ -1,0 +1,40 @@
+# 📝 Publications 
+
+**A complete list of my publications is available on [Google Scholar](https://scholar.google.com/citations?user=Dc6Eq1cAAAAJ&hl=en)**.
+<div style="border-bottom: 1px solid #efefef; margin-bottom: .4em;"></div>
+
+<!-- Blurry-edges -->
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge-image">CVPR 2025</div><img src='images/publication-teaser/blurry-edges.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Blurry-Edges: Photon-Limited Depth Estimation from Defocused Boundaries](https://arxiv.org/abs/2503.23606)
+
+**Wei Xu**, Charles James Wagner, Junjie Luo, Qi Guo
+
+IEEE / CVF Computer Vision and Pattern Recognition Conference (CVPR), 2025
+
+[Project page](https://blurry-edges.qiguo.org/) \| [arXiv](https://arxiv.org/abs/2503.23606) \| [Code](https://github.com/guo-research-group/Blurry-Edges)
+</div>
+</div>
+
+<!-- CT-Bound -->
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge-image">MMSP 2024</div><img src='images/publication-teaser/ct-bound.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[CT-Bound: Robust Boundary Detection from Noisy Images Via Hybrid Convolution and Transformer Neural Networks](https://ieeexplore.ieee.org/abstract/document/10743517)
+
+**Wei Xu**, Junjie Luo, Qi Guo
+
+IEEE 26th International Workshop on Multimedia Signal Processing (MMSP), 2024
+
+[arXiv](https://arxiv.org/abs/2403.16494) \| [Code](https://github.com/guo-research-group/CT-Bound)
+</div>
+</div>
+
+- <span class="badge-text">IDETC-CIE 2022</span> [Design and Modeling of a New Variable Stiffness Robotic Finger Based on Reconfigurable Beam Property Change for Flexible Grasping](https://asmedigitalcollection.asme.org/IDETC-CIE/proceedings/IDETC-CIE2022/86281/V007T07A010/1150568)<br>
+**Wei Xu**, Jiaming Fu, Dongming Gan<br>
+International Design Engineering Technical Conferences & Computers and Information in Engineering Conference (IDETC-CIE), 2022
+
+- <span class="badge-text">AAAI-FSS 2021</span> [Natural Language for Human-Robot Collaboration: Problems Beyond Language Grounding](https://arxiv.org/abs/2110.04441)<br>
+Seth Pate, **Wei Xu**, Ziyi Yang, Maxwell Love, Siddarth Ganguri, Lawson L.S. Wong<br>
+AAAI Fall Symposium on Artificial Intelligence for Human-Robot Interaction (AI-HRI), 2021
