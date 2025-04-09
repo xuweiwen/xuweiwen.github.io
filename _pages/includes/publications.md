@@ -13,7 +13,7 @@
 
 IEEE / CVF Computer Vision and Pattern Recognition Conference (CVPR), 2025
 
-[Project page](https://blurry-edges.qiguo.org/) \| [arXiv](https://arxiv.org/abs/2503.23606) \| [Code](https://github.com/guo-research-group/Blurry-Edges)
+[[Project page](https://blurry-edges.qiguo.org/)] [[arXiv](https://arxiv.org/abs/2503.23606)] [[Code](https://github.com/guo-research-group/Blurry-Edges)]
 </div>
 </div>
 
@@ -27,7 +27,7 @@ IEEE / CVF Computer Vision and Pattern Recognition Conference (CVPR), 2025
 
 IEEE 26th International Workshop on Multimedia Signal Processing (MMSP), 2024
 
-[arXiv](https://arxiv.org/abs/2403.16494) \| [Code](https://github.com/guo-research-group/CT-Bound)
+[[arXiv](https://arxiv.org/abs/2403.16494)] [[Code](https://github.com/guo-research-group/CT-Bound)]
 </div>
 </div>
 
