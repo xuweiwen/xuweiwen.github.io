@@ -58,9 +58,9 @@
         padding: 0 0 .4em 0;
         img {
             max-width: 400px;
-            box-shadow: 3px 3px 6px $shadow-color;
+            box-shadow: $box-shadow;
             object-fit: cover;
-            border-radius: .25rem;
+            border-radius: $border-radius;
         }
     }
     
