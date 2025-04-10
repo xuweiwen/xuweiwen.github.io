@@ -7,13 +7,11 @@
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge-image">CVPR 2025</div><img src='images/publication-teaser/blurry-edges.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Blurry-Edges: Photon-Limited Depth Estimation from Defocused Boundaries](https://arxiv.org/abs/2503.23606)
-
-**Wei Xu**, Charles James Wagner, Junjie Luo, Qi Guo
-
-IEEE/CVF Computer Vision and Pattern Recognition Conference (CVPR), 2025
-
+[Blurry-Edges: Photon-Limited Depth Estimation from Defocused Boundaries](https://arxiv.org/abs/2503.23606)<br>
+**Wei Xu**, Charles James Wagner, Junjie Luo, Qi Guo<br>
+IEEE/CVF Computer Vision and Pattern Recognition Conference (CVPR), 2025<br>
 [[Project page](https://blurry-edges.qiguo.org/)] [[arXiv](https://arxiv.org/abs/2503.23606)] [[Code](https://github.com/guo-research-group/Blurry-Edges)]
+
 </div>
 </div>
 
@@ -21,13 +19,11 @@ IEEE/CVF Computer Vision and Pattern Recognition Conference (CVPR), 2025
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge-image">MMSP 2024</div><img src='images/publication-teaser/ct-bound.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[CT-Bound: Robust Boundary Detection from Noisy Images Via Hybrid Convolution and Transformer Neural Networks](https://ieeexplore.ieee.org/abstract/document/10743517)
-
-**Wei Xu**, Junjie Luo, Qi Guo
-
-IEEE 26th International Workshop on Multimedia Signal Processing (MMSP), 2024
-
+[CT-Bound: Robust Boundary Detection from Noisy Images Via Hybrid Convolution and Transformer Neural Networks](https://ieeexplore.ieee.org/abstract/document/10743517)<br>
+**Wei Xu**, Junjie Luo, Qi Guo<br>
+IEEE 26th International Workshop on Multimedia Signal Processing (MMSP), 2024<br>
 [[arXiv](https://arxiv.org/abs/2403.16494)] [[Code](https://github.com/guo-research-group/CT-Bound)]
+
 </div>
 </div>
 
