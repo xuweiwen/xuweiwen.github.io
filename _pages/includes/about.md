@@ -2,4 +2,4 @@ I am a Ph.D. student in [Elmore Family School of Electrical and Computer Enginee
 
 Prior to Purdue, I completed my M.S. in [Khoury College of Computer Sciences](https://www.khoury.northeastern.edu/) at [Northeastern University](https://www.northeastern.edu) under the supervision of [Prof. Lawson L.S. Wong](http://www.ccs.neu.edu/home/lsw/). Previously, I received my B.Eng. and M.S. in Department of Process Equipment and Control Engineering at [Tianjin University](http://www.tju.edu.cn), advised by [Prof. Liyan Liu](http://chemeng.tju.edu.cn/cn/szdw?type=detail&id=52).
 
-📄 Download my [curriculum vitea](https://www.google.com/) (temporarily unavailable).
+📄 Download my [curriculum vitea](/#about-me) (temporarily unavailable).
