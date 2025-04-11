@@ -1,0 +1,9 @@
+<script>
+  function showNotice(id, display_style = 'block', duration = 5000) {
+    const box = document.getElementById(id);
+    box.style.display = display_style;
+    setTimeout(() => {
+      box.style.display = 'none';
+    }, duration);
+  }
+</script>
