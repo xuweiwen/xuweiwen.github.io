@@ -97,23 +97,23 @@ h1:before, .anchor:before {
 }
 
 .badge-image {
-    padding-left: 1.1rem;
-    padding-right: 1.1rem;
+    padding-left: 1.1em;
+    padding-right: 1.1em;
     position: absolute;
     margin-top: .5em;
     margin-left: -.8em;
     color: white;
     background-color: $info-color;
-    border-radius: .25rem;
+    border-radius: $border-radius;
     font-size: .9em;
 }
 
 .badge-text {
-    padding-left: .4rem;
-    padding-right: .4rem;
+    padding-left: .4em;
+    padding-right: .4em;
     color: white;
     background-color: $info-color;
     font-size: .9em;
-    border-radius: .25rem;
+    border-radius: $border-radius;
     display: inline-block;
 }
