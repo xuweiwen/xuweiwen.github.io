@@ -1,13 +1,13 @@
 # 🎓 Education
 
-- Ph.D. in Electrical and Computer Engineering, <a href="#" onclick="showNotice('Purdue','flex'); return false;">Purdue University</a>, 2021 - Present <br>
+- Ph.D. in Electrical and Computer Engineering, <a href="#" onclick="showNotice('Purdue','flex'); return false;" style="color: #8e6f3e;">Purdue University</a>, 2021 - Present <br>
   {% raw %}
   <div id="Purdue" class="notice--info" style="display: none; text-align: center; align-items: center; justify-content: center; gap: 1.5em; flex-wrap: wrap;">
     <img src='images/purdue.png' style='width: 6em;'>
     <p>Boiler Up!</p>
   </div>
   {% endraw %}
-- M.S. in Robotics (Concentration in Computer Science), <a href="#" onclick="showNotice('Northeastern','flex'); return false;">Northeastern University</a>, 2019 - 2021 <br>
+- M.S. in Robotics (Concentration in Computer Science), <a href="#" onclick="showNotice('Northeastern','flex'); return false;" style="color: #bb4100;">Northeastern University</a>, 2019 - 2021 <br>
   {% raw %}
   <div id="Northeastern" class="notice--info" style="display: none; text-align: center; align-items: center; justify-content: center; gap: 1em; flex-wrap: wrap;">
     <img src='images/northeastern.png' style='width: 6em;'>
