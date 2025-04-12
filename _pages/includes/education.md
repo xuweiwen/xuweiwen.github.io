@@ -7,7 +7,7 @@
     <p>Boiler Up!</p>
   </div>
   {% endraw %}
-- M.S. in Robotics (Concentration in Computer Science), <a href="#" onclick="showNotice('Northeastern','flex'); return false;" style="color: #bb4100;">Northeastern University</a>, 2019 - 2021 <br>
+- M.S. in Robotics (Concentration in Computer Science), <a href="#" onclick="showNotice('Northeastern','flex'); return false;" style="color: #e5621c;">Northeastern University</a>, 2019 - 2021 <br>
   {% raw %}
   <div id="Northeastern" class="notice--info" style="display: none; text-align: center; align-items: center; justify-content: center; gap: 1em; flex-wrap: wrap;">
     <img src='images/northeastern.png' style='width: 6em;'>
