@@ -4,7 +4,13 @@
 <div style="border-bottom: 1px solid #efefef; margin-bottom: .4em;"></div>
 
 <!-- Blurry-edges -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge-image">CVPR 2025</div><img src='images/publication-teaser/blurry-edges.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'>
+<div class='paper-box-image'>
+<div markdown="1">
+<div class="badge-image">CVPR 2025</div>
+![Blurry-Edges cover](images/publication-teaser/blurry-edges.png){: width="100%" }
+</div>
+</div>
 <div class='paper-box-text' markdown="1">
 
 [Blurry-Edges: Photon-Limited Depth Estimation from Defocused Boundaries](https://arxiv.org/abs/2503.23606)<br>
@@ -16,7 +22,13 @@ IEEE/CVF Computer Vision and Pattern Recognition Conference (CVPR), 2025<br>
 </div>
 
 <!-- CT-Bound -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge-image">MMSP 2024</div><img src='images/publication-teaser/ct-bound.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'>
+<div class='paper-box-image'>
+<div markdown="1">
+<div class="badge-image">MMSP 2024</div>
+![CT-Bound cover](images/publication-teaser/ct-bound.png){: width="100%" }
+</div>
+</div>
 <div class='paper-box-text' markdown="1">
 
 [CT-Bound: Robust Boundary Detection from Noisy Images Via Hybrid Convolution and Transformer Neural Networks](https://ieeexplore.ieee.org/abstract/document/10743517)<br>
