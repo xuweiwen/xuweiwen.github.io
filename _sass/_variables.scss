@@ -151,3 +151,7 @@ $box-shadow                 : 3px 3px 6px $shadow-color;;
 $navicon-width              : 21px;
 $navicon-height             : 3px;
 $global-transition          : all 0.2s ease-in-out;
+
+:root {
+  --text-color: #{$text-color};
+}
