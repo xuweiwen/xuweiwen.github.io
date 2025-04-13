@@ -16,5 +16,15 @@
   **Go Huskies!**
 
   </div>
-- M.S. in Chemical Process Machinery, Tianjin University, 2016 - 2019 
-- B.Eng. in Process Equipment and Control Engineering, Tianjin University, 2012 - 2016 
+- M.S. in Chemical Process Machinery, <a href="#" onclick="showNotice('TJU_MS','flex'); return false;" style="color: var(--text-color); text-decoration-color: #00468c;">Tianjin University</a>, 2016 - 2019 
+  <div id="TJU_MS" class="notice--info" markdown="1" style="display: none; background-color: #d9e6ff; align-items: center; justify-content: center; gap: 1em; flex-wrap: wrap; min-width: 50%; width: fit-content; margin-left: 0;">
+  
+  ![TJU logo](images/tju.png){: style="width: 6em;" }
+  
+  </div>
+- B.Eng. in Process Equipment and Control Engineering, <a href="#" onclick="showNotice('TJU_BEng','flex'); return false;" style="color: var(--text-color); text-decoration-color: #00468c;">Tianjin University</a>, 2012 - 2016 
+  <div id="TJU_BEng" class="notice--info" markdown="1" style="display: none; background-color: #d9e6ff; align-items: center; justify-content: center; gap: 1em; flex-wrap: wrap; min-width: 50%; width: fit-content; margin-left: 0;">
+  
+  ![TJU logo](images/tju.png){: style="width: 6em;" }
+  
+  </div>
