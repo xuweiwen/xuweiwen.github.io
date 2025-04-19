@@ -25,7 +25,6 @@ author:
   bio              : "Purdue University"
   location         : "West Lafayette, IN"
   employer         :
-  pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=Dc6Eq1cAAAAJ&hl=en"
   email            : "weixu@purdue.edu"
   researchgate     : # e.g., "https://www.researchgate.net/profile/yourprofile"
@@ -37,13 +36,10 @@ author:
   facebook         :
   foursquare       :
   github           : "xuweiwen" # e.g., "github username"
-  google_plus      :
   keybase          :
   instagram        :
-  impactstory      : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         : "weixuxyz" # e.g., "linkedin username"
-  dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
   orcid            : # e.g., "https://orcid.org/xxxx"
   pinterest        :
   soundcloud       :
@@ -133,7 +129,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-timezone: Asia/Shanghai # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/New_York # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
@@ -158,3 +154,6 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
+# Font Awesome
+path-to-fontawesome: "assets/fontawesome"
