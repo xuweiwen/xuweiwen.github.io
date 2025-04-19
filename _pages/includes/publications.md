@@ -15,8 +15,8 @@
 
 [Blurry-Edges: Photon-Limited Depth Estimation from Defocused Boundaries](https://arxiv.org/abs/2503.23606)<br>
 **Wei Xu**, Charles James Wagner, Junjie Luo, Qi Guo<br>
-IEEE/CVF Computer Vision and Pattern Recognition Conference (CVPR), 2025<br>
-[[Project page](https://blurry-edges.qiguo.org/)] [[arXiv](https://arxiv.org/abs/2503.23606)] [[Code](https://github.com/guo-research-group/Blurry-Edges)]
+IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2025<br>
+[[Project page](https://blurry-edges.qiguo.org/)] [[arXiv](https://arxiv.org/abs/2503.23606)] [[Code](https://github.com/guo-research-group/Blurry-Edges)] [[YouTube](https://youtu.be/ZUqNXTuO0u8)]
 
 </div>
 </div>
