@@ -95,10 +95,11 @@
     max-width: 175px;
     min-width: 75px;
     border-radius: $border-radius;
+    box-shadow: $box-shadow;
 
-    @include breakpoint($large) {
-      box-shadow: $box-shadow;
-    }
+    // @include breakpoint($large) {
+    //   box-shadow: $box-shadow;
+    // }
   }
 }
 
