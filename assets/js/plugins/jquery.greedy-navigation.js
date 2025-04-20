@@ -12,8 +12,6 @@ var $hlinks = $('#site-nav .hidden-links');
 
 var breaks = [];
 
-let isMenuOpen = false;
-
 function updateNav() {
 
   var availableSpace = $btn.hasClass('hidden') ? $nav.width() : $nav.width() - $btn.width() - 30;
@@ -66,23 +64,9 @@ $(window).resize(function() {
   updateNav();
 });
 
-// $btn.on('click', function() {
-//   $hlinks.toggleClass('hidden');
-//   $(this).toggleClass('close');
-// });
-
 $btn.on('click', function() {
   $hlinks.toggleClass('hidden');
   $(this).toggleClass('close');
-  isMenuOpen = !$hlinks.hasClass('hidden');
-});
-
-$(window).on('scroll', function () {
-  if (isMenuOpen) {
-    $hlinks.addClass('hidden');
-    $btn.removeClass('close');
-    isMenuOpen = false;
-  }
 });
 
 updateNav();
