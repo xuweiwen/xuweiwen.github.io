@@ -100,9 +100,6 @@
       {% if author.codepen %}
         <li><a href="https://codepen.io/{{ author.codepen }}"><i class="fa-brands fa-codepen" aria-hidden="true"></i> CodePen</a></li>
       {% endif %}
-      {% if author.vine %}
-        <li><a href="https://vine.co/u/{{ author.vine }}"><i class="fa-brands fa-vine" aria-hidden="true"></i> Vine</a></li>
-      {% endif %}
       {% if author.googlescholar %}
         <li><a href="{{ author.googlescholar }}"><i class="fa-brands fa-google-scholar"></i> Google Scholar</a></li>
       {% endif %}
@@ -179,9 +176,6 @@
       {% endif %}
       {% if author.codepen %}
         <a href="https://codepen.io/{{ author.codepen }}"><i class="fa-brands fa-codepen" aria-hidden="true"></i></a>
-      {% endif %}
-      {% if author.vine %}
-        <a href="https://vine.co/u/{{ author.vine }}"><i class="fa-brands fa-vine" aria-hidden="true"></i></a>
       {% endif %}
       {% if author.googlescholar %}
         <a href="{{ author.googlescholar }}"><i class="fa-brands fa-google-scholar"></i></a>
