@@ -1,4 +1,4 @@
-# 📝 Publications 
+# <i class="fa-solid fa-fw fa-file" style="color: #bdd7ee"></i> Publications {#publications}
 
 **A complete list of my publications is available on [Google Scholar](https://scholar.google.com/citations?user=Dc6Eq1cAAAAJ&hl=en)**.
 <div style="border-bottom: 1px solid #efefef; margin-bottom: .4em;"></div>

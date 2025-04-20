@@ -1,4 +1,4 @@
-# 🎓 Education
+# <i class="fa-solid fa-fw fa-graduation-cap" style="color: #c5e0b4"></i> Education {#education}
 
 - Ph.D. in Electrical and Computer Engineering, <a href="#" onclick="showNotice('Purdue','flex'); return false;" style="color: var(--text-color); text-decoration-color: #8e6f3e;">Purdue University</a>, 2021 - Present <br>
   <div id="Purdue" class="notice--info" markdown="1" style="display: none; background-color: #ebd99f; align-items: center; justify-content: center; gap: 1em; flex-wrap: wrap; min-width: 50%; width: fit-content; margin-left: 0;">

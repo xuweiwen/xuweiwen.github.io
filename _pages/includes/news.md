@@ -1,4 +1,4 @@
-# 🔥 News
+# <i class="fa-solid fa-fw fa-fire" style="color: #f8cbad;"></i> News {#news}
 
 - [Feb. 2025] One paper was accepted at [CVPR 2025](https://cvpr.thecvf.com/Conferences/2025). 
 - [Aug. 2024] One paper was accepted at [MMSP 2024](https://attend.ieee.org/mmsp-2024/). 
