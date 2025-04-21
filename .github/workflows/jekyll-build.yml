@@ -1,0 +1,46 @@
+name: Regenerate Gemfile.lock
+
+on:
+  workflow_dispatch:
+
+jobs:
+  regenerate-lockfile:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.3 # Ruby version with GitHub Pages
+          bundler-cache: false
+
+      - name: Install correct Bundler version
+        run: gem install bundler -v 2.5.22 # Bundler version with GitHub Pages
+      
+      - name: Clear Bundler cache
+        run: rm -rf ~/.bundle
+
+      - name: Install dependencies & generate lockfile
+        run: |
+          rm -f Gemfile.lock
+          bundle lock --add-platform x86_64-linux
+          bundle update github-pages
+          bundle install
+          bundle exec github-pages versions || echo "github-pages gem not fully installed yet"
+          bundle exec github-pages doctor || echo "Still not satisfied"
+          cat Gemfile.lock
+          touch Gemfile.lock
+
+      - name: Commit Gemfile.lock
+        run: |
+          git config --global user.email "actions@github.com"
+          git config --global user.name "GitHub Actions"
+          git add Gemfile.lock
+          git commit -m "Regenerate Gemfile.lock [skip ci]" || echo "No changes to commit"
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
