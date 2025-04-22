@@ -16,9 +16,6 @@ jobs:
         with:
           ruby-version: 3.3 # Ruby version with GitHub Pages
           bundler-cache: false
-
-      - name: Install correct Bundler version
-        run: gem install bundler -v 2.5.22 # Bundler version with GitHub Pages
       
       - name: Clear Bundler cache
         run: rm -rf ~/.bundle
@@ -29,8 +26,8 @@ jobs:
           bundle lock --add-platform x86_64-linux
           bundle update github-pages
           bundle install
-          bundle exec github-pages versions || echo "github-pages gem not fully installed yet"
-          bundle exec github-pages doctor || echo "Still not satisfied"
+          bundle exec github-pages versions || { echo "Error: github-pages gem not fully installed yet"; exit 1; }
+          bundle exec github-pages doctor || { echo "Warning: Issues detected with GitHub Pages": exit 1; }
           cat Gemfile.lock
           touch Gemfile.lock
 
