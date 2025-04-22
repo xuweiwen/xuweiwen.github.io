@@ -31,13 +31,17 @@ jobs:
           cat Gemfile.lock
           touch Gemfile.lock
 
-      - name: Commit Gemfile.lock
+      - name: Commit and push Gemfile.lock if changed
         run: |
-          git config --global user.email "actions@github.com"
-          git config --global user.name "GitHub Actions"
-          git add Gemfile.lock
-          git commit -m "Regenerate Gemfile.lock [skip ci]" || echo "No changes to commit"
-          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
-          git push
+          if ! git diff --quiet Gemfile.lock; then
+            git config --global user.email "actions@github.com"
+            git config --global user.name "GitHub Actions"
+            git add Gemfile.lock
+            git commit -m "Regenerate Gemfile.lock [skip ci]"
+            git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+            git push
+          else
+            echo "Gemfile.lock has not changed. Skipping commit and push."
+          fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
