@@ -1,3 +1,4 @@
+export { initPageHeigheAdj } from './page-height-consent-banner.js';
 export { initAuthorInfo } from './author-info.js';
 export { initResponsiveNav } from './greedy-navigation.js';
 export { initSmoothScroll } from './smooth-scroll.js';

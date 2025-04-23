@@ -1,0 +1,50 @@
+<div id="cookie-consent-banner" style="display: none;">
+  <div class="cookie-consent-content">
+    <p>This website uses cookies to collect anonymous usage data for analytics. You can accept or decline—it's completely up to you.</p>
+    <button id="cookie-consent-accept">Accept</button>
+    <button id="cookie-consent-decline">Decline</button>
+  </div>
+</div>
+
+<script>
+  // Check if user already consented
+  function checkConsent() {
+    if (localStorage.getItem('cookie-consent') === 'accepted') {
+      loadGoogleAnalytics(); // If consented earlier, load GA
+    } else {
+      document.getElementById('cookie-consent-banner').style.display = 'block'; // Show banner
+    }
+  }
+
+  // Load Google Analytics after consent
+  function loadGoogleAnalytics() {
+    const script = document.createElement('script');
+    script.async = true;
+    script.src = `https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics_id }}`;
+    document.head.appendChild(script);
+
+    script.onload = function () {
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', "{{ site.google_analytics_id }}");
+    };
+  }
+
+  // Accept button click event
+  document.getElementById('cookie-consent-accept').addEventListener('click', function() {
+    localStorage.setItem('cookie-consent', 'accepted'); // Store consent
+    document.getElementById('cookie-consent-banner').style.display = 'none'; // Hide banner
+    loadGoogleAnalytics(); // Load Google Analytics
+  });
+
+  // Decline button click event
+  document.getElementById('cookie-consent-decline').addEventListener('click', function() {
+    document.getElementById('cookie-consent-banner').style.display = 'none'; // Hide banner
+  });
+
+  // On page load, check for consent
+  window.onload = function () {
+    checkConsent();
+  };
+</script>
