@@ -1,4 +1,4 @@
-function initPageHeigheAdj() {
+function initPageHeightAdj() {
   const banner = document.getElementById("cookie-consent-banner");
   var bumpIt = function() {
     if (banner && banner.style.display !== "none") {
