@@ -56,3 +56,5 @@ function initSmoothScroll({ offset = 0, duration = 400 } = {}) {
     });
   });
 }
+
+export { initSmoothScroll };

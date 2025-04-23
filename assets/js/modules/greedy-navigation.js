@@ -79,3 +79,5 @@ function initResponsiveNav() {
   // Initial run
   updateNav();
 }
+
+export { initResponsiveNav };

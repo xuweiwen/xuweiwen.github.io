@@ -20,3 +20,5 @@ function initCollapsibleSections({expandedLabel = " - show", collapsedLabel = " 
     });
   });
 }
+
+export { initCollapsibleSections };

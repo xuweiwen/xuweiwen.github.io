@@ -28,3 +28,5 @@ function initAuthorInfo() {
     });
   }
 }
+
+export { initAuthorInfo };

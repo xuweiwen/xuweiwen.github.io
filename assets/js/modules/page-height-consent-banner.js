@@ -28,3 +28,5 @@ function initPageHeightAdj() {
   }
   bumpIt();
 }
+
+export { initPageHeightAdj };

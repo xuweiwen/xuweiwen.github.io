@@ -5,3 +5,5 @@ function showNotice(id, display_style = 'block', duration = 5000) {
     box.style.display = 'none';
   }, duration);
 }
+
+export { showNotice };
