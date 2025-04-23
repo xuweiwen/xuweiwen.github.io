@@ -22,7 +22,7 @@
   ![TJU logo](images/university-logos/tju.png){: style="width: 6em;" }
   
   </div>
-- B.Eng. in Process Equipment and Control Engineering, <a href="#" class="show-notice-link" data-target="TJU_MS" data-display-style="flex" style="color: var(--text-color); text-decoration-color: #00468c;">Tianjin University</a>, 2012 - 2016 
+- B.Eng. in Process Equipment and Control Engineering, <a href="#" class="show-notice-link" data-target="TJU_BEng" data-display-style="flex" style="color: var(--text-color); text-decoration-color: #00468c;">Tianjin University</a>, 2012 - 2016 
   <div id="TJU_BEng" class="notice--info" markdown="1" style="display: none; background-color: #d9e6ff; align-items: center; justify-content: center; gap: 1em; flex-wrap: wrap; min-width: 50%; width: fit-content; margin-left: 0;">
   
   ![TJU logo](images/university-logos/tju.png){: style="width: 6em;" }
