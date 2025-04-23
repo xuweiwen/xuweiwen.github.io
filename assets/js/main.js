@@ -10,3 +10,5 @@ document.addEventListener("DOMContentLoaded", function() {
   initCollapsibleSections({expandedLabel: " - show", collapsedLabel: " - hide"});
   
 });
+
+console.log("main.js loaded");
