@@ -29,7 +29,7 @@ function initResponsiveNav() {
     const btnHidden = hasClass(btn, 'hidden');
     const availableSpace = btnHidden
       ? nav.offsetWidth
-      : nav.offsetWidth - btn.offsetWidth - 40;
+      : nav.offsetWidth - btn.offsetWidth - 30;
 
     // Move items to hidden if overflowing
     while (vlinks.offsetWidth > availableSpace && vlinks.lastElementChild) {
