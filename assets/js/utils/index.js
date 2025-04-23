@@ -1,1 +1,1 @@
-export { showNotice } from './temp-pop-up-window.js';
+export { initShowNotice } from './temp-pop-up-window.js';

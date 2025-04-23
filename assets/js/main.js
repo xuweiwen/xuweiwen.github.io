@@ -1,12 +1,13 @@
 import { initPageHeightAdj, initAuthorInfo, initResponsiveNav, initSmoothScroll, initCollapsibleSections } from './modules/index.js';
-import { showNotice } from './utils/index.js';
+import { initShowNotice } from './utils/index.js';
 
 document.addEventListener("DOMContentLoaded", function() {
 
   initPageHeightAdj();
-  initAuthorInfo()
+  initAuthorInfo();
   initResponsiveNav();
   initSmoothScroll({ offset: -20, duration: 400 });
   initCollapsibleSections({expandedLabel: " - show", collapsedLabel: " - hide"});
+  initShowNotice();
   
 });
