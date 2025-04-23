@@ -1,8 +1,5 @@
-import { initResponsiveNav } from './modules/greedy-navigation.js';
-import { initSmoothScroll } from './modules/smooth-scroll.js';
-import { initCollapsibleSections } from './modules/collapse.js';
-import { initAuthorInfo } from './modules/author-info.js';
-
+import { initAuthorInfo, initResponsiveNav, initSmoothScroll, initCollapsibleSections } from './modules/index.js';
+import { showNotice } from './utils/index.js';
 
 document.addEventListener("DOMContentLoaded", function() {
   

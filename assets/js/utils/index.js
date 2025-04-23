@@ -1,0 +1,1 @@
+export { showNotice } from './temp-pop-up-window.js';
