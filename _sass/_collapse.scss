@@ -23,8 +23,9 @@
 }
 .container .header {
     background-color: $info-color;
+    border-radius: $border-radius;
     color: white;
-    padding: 2px;
+    padding: .2rem 1rem;
     margin-left: 2rem;
     cursor: pointer;
     font-weight: bold;

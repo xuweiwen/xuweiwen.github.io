@@ -1,7 +1,7 @@
 # <i class="fa-solid fa-fw fa-file-lines" style="color: #bdd7ee"></i> Publications {#publications}
 
 **A complete list of my publications is available on [Google Scholar](https://scholar.google.com/citations?user=Dc6Eq1cAAAAJ&hl=en)**.
-<div style="border-bottom: 1px solid #efefef; margin-bottom: .4em;"></div>
+<div style="border-bottom: 1px solid #f4f5f6; margin-bottom: .4em;"></div>
 
 <!-- Blurry-edges -->
 <div class='paper-box'>
@@ -46,12 +46,3 @@ International Design Engineering Technical Conferences & Computers and Informati
 - <span class="badge-text">AAAI-FSS 2021</span> [Natural Language for Human-Robot Collaboration: Problems Beyond Language Grounding](https://arxiv.org/abs/2110.04441)<br>
 Seth Pate, **Wei Xu**, Ziyi Yang, Maxwell Love, Siddarth Ganguri, Lawson L.S. Wong<br>
 AAAI Fall Symposium on Artificial Intelligence for Human-Robot Interaction (AI-HRI), 2021
-
-<div class="container">
-<div class="header">More</div>
-<div class="content" markdown="1">
-
-Debugging...
-
-</div>
-</div>
