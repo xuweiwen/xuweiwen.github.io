@@ -1,0 +1,38 @@
+/* ==========================================================================
+   Collapse
+   ========================================================================== */
+
+/*
+   Usage:
+
+   <div class="container">
+   <div class="header">Title</div>
+   <div class="content" markdown="1">
+
+   content
+
+   </div>
+   </div>
+   ========================================================================== */
+
+.container {
+    width:100%;
+}
+.container div {
+    width:100%;
+}
+.container .header {
+    background-color: $info-color;
+    color: white;
+    padding: 2px;
+    margin-left: 2rem;
+    cursor: pointer;
+    font-weight: bold;
+    display: inline-block;
+    width: auto;
+}
+.container .content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+}
