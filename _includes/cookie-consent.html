@@ -1,3 +1,5 @@
+{% if page.analytics != false %}
+
 <div id="cookie-consent-banner" style="display: none;">
   <div class="cookie-consent-content">
     <p>This website uses cookies to collect anonymous usage data for analytics. You can accept or decline—it's completely up to you.</p>
@@ -9,10 +11,14 @@
 <script>
   // Check if user already consented
   function checkConsent() {
-    if (localStorage.getItem('cookie-consent') === 'accepted') {
-      loadGoogleAnalytics(); // If consented earlier, load GA
-    } else {
-      document.getElementById('cookie-consent-banner').style.display = 'block'; // Show banner
+    try {
+      if (localStorage.getItem('cookie-consent') === 'accepted') {
+        loadGoogleAnalytics(); // If consented earlier, load GA
+      } else {
+        document.getElementById('cookie-consent-banner').style.display = 'block'; // Show banner
+      }
+    } catch (e) {
+      console.warn("localStorage not available");
     }
   }
 
@@ -48,3 +54,5 @@
     checkConsent();
   };
 </script>
+
+{% endif %}
