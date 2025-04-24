@@ -1,4 +1,4 @@
-name: Bunslw and minify JavaScript
+name: Bundle and minify JavaScript
 
 on:
   workflow_dispatch:
