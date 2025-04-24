@@ -1,0 +1,49 @@
+name: Bunslw and minify JavaScript
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 'lts/*'
+
+      - name: Install esbuild
+        run: npm install -g esbuild
+
+      - name: Bundle and minify JS
+        run: |
+          # Get target ECMAScript version from 9 years ago
+          ES_YEAR=$(( $(date +%Y) - 9 ))
+          TARGET="es$ES_YEAR"
+          mkdir -p assets/js/min
+          esbuild assets/js/main.js \
+            --bundle \
+            --minify \
+            --outfile=assets/js/min/main.min.js \
+            --format=iife \
+            --target=$TARGET
+          echo "JS bundled and minified successfully."
+
+      - name: Commit and push minified JS
+        run: |
+          git config --global user.email "actions@github.com"
+          git config --global user.name "GitHub Actions"
+          git add assets/js/min/main.min.js
+          if git diff --cached --quiet; then
+            echo "assets/js/min/main.min.js has not changed. Skipping commit and push."
+          else
+            git commit -m "Auto-minified JS with GitHub Actions"
+            git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+            git push
+          fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

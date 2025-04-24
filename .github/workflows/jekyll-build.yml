@@ -29,19 +29,18 @@ jobs:
           bundle exec github-pages versions || { echo "Error: github-pages gem not fully installed yet"; exit 1; }
           bundle exec github-pages doctor || { echo "Warning: Issues detected with GitHub Pages": exit 1; }
           cat Gemfile.lock
-          touch Gemfile.lock
 
       - name: Commit and push Gemfile.lock if changed
         run: |
-          if ! git diff --quiet Gemfile.lock; then
-            git config --global user.email "actions@github.com"
-            git config --global user.name "GitHub Actions"
-            git add Gemfile.lock
+          git config --global user.email "actions@github.com"
+          git config --global user.name "GitHub Actions"
+          git add Gemfile.lock
+          if git diff --cached --quiet; then
+            echo "Gemfile.lock has not changed. Skipping commit and push."
+          else
             git commit -m "Regenerate Gemfile.lock [skip ci]"
             git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
             git push
-          else
-            echo "Gemfile.lock has not changed. Skipping commit and push."
           fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
