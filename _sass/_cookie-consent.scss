@@ -2,7 +2,7 @@
    COOKIE CONSENT BANNER
    ========================================================================== */
 
-#cookie-consent-banner {
+.cookie-consent-content {
   position: fixed;
   bottom: 0;
   left: 0;
@@ -13,22 +13,22 @@
   text-align: center;
   font-size: 1em;
   z-index: 9999;
-}
 
-.cookie-consent-content p {
-  margin: 0;
-}
+  p {
+    margin: 0;
+  }
 
-#cookie-consent-banner button {
-  background-color: #daaa00;
-  color: white;
-  padding: .5em .75em;
-  border: none;
-  cursor: pointer;
-  margin: .5em 1em 0 1em;
-  border-radius: $border-radius;
-}
+  button {
+    background-color: #daaa00;
+    color: white;
+    padding: .5em .75em;
+    border: none;
+    cursor: pointer;
+    margin: .5em 1em 0 1em;
+    border-radius: $border-radius;
 
-#cookie-consent-banner button:hover {
-  background-color: #8e6f3e;
+    &:hover {
+      background-color: #8e6f3e;
+    }
+  }
 }
