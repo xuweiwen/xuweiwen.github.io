@@ -16,24 +16,27 @@
    ========================================================================== */
 
 .container {
-    width:100%;
-}
-.container div {
-    width:100%;
-}
-.container .header {
+  width: 100%;
+
+  div {
+    width: 100%;
+  }
+
+  .header {
     background-color: $info-color;
     border-radius: $border-radius;
     color: white;
-    padding: .2rem 1rem;
+    padding: 0.2rem 1rem;
     margin-left: 2rem;
     cursor: pointer;
     font-weight: bold;
     display: inline-block;
     width: auto;
-}
-.container .content {
+  }
+
+  .content {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.5s ease;
+  }
 }
