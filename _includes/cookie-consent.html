@@ -37,22 +37,22 @@
     };
   }
 
-  // Accept button click event
-  document.getElementById('cookie-consent-accept').addEventListener('click', function() {
-    localStorage.setItem('cookie-consent', 'accepted'); // Store consent
-    document.getElementById('cookie-consent-banner').style.display = 'none'; // Hide banner
-    loadGoogleAnalytics(); // Load Google Analytics
-  });
+  document.addEventListener('DOMContentLoaded', function () {
+    // Accept button click event
+    document.getElementById('cookie-consent-accept').addEventListener('click', function() {
+      localStorage.setItem('cookie-consent', 'accepted'); // Store consent
+      document.getElementById('cookie-consent-banner').style.display = 'none'; // Hide banner
+      loadGoogleAnalytics(); // Load Google Analytics
+    });
 
-  // Decline button click event
-  document.getElementById('cookie-consent-decline').addEventListener('click', function() {
-    document.getElementById('cookie-consent-banner').style.display = 'none'; // Hide banner
-  });
+    // Decline button click event
+    document.getElementById('cookie-consent-decline').addEventListener('click', function() {
+      document.getElementById('cookie-consent-banner').style.display = 'none'; // Hide banner
+    });
 
-  // On page load, check for consent
-  window.onload = function () {
+    // Run consent check
     checkConsent();
-  };
+  });
 </script>
 
 {% endif %}
