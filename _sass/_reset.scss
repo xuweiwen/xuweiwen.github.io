@@ -23,12 +23,8 @@ body { margin: 0; }
 
 /* Selected elements */
 
+::selection,
 ::-moz-selection {
-  color: #fff;
-  background: #000;
-}
-
-::selection {
   color: #fff;
   background: #000;
 }
