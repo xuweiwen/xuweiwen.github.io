@@ -67,19 +67,16 @@ audio:not([controls]) {
 
 a {
   color: $link-color;
-}
 
-/* Apply focus state */
+  &:focus,
+  &:hover,
+  &:active {
+    outline: 0;
+  }
 
-a:focus {
-  @extend %tab-focus;
-}
-
-/* Remove outline from links */
-
-a:hover,
-a:active {
-  outline: 0;
+  &:focus-visible {
+    @include tab-focus;
+  }
 }
 
 /* Prevent sub and sup affecting line-height in all browsers */

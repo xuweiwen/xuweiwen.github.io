@@ -2,9 +2,8 @@
    MIXINS
    ========================================================================== */
 
-%tab-focus {
-  /* Default*/
-  outline: 2px dotted $warning-color;
+@mixin tab-focus {
+  outline: 2px solid $warning-color;
   outline-offset: -2px;
 }
 
