@@ -11,13 +11,12 @@
 */
 
 @import "vendor/breakpoint/breakpoint"; // media query mixins
+@import "variables";
+@import "mixins";
 @import "vendor/susy/susy";
 @import "vendor/fontawesome/fontawesome";
 @import "vendor/fontawesome/brands";
 @import "vendor/fontawesome/solid";
-
-@import "variables";
-@import "mixins";
 
 @import "reset";
 @import "base";
