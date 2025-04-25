@@ -11,33 +11,34 @@
 */
 
 @import "vendor/breakpoint/breakpoint"; // media query mixins
+@import "vendor/susy/susy";
+@import "vendor/fontawesome/fontawesome";
+@import "vendor/fontawesome/brands";
+@import "vendor/fontawesome/solid";
+
 @import "variables";
 @import "mixins";
-@import "vendor/susy/susy";
 
 @import "reset";
 @import "base";
 
 @import "utilities";
+
 @import "animations";
 @import "tables";
+@import "forms";
 @import "buttons";
 @import "notices";
 @import "masthead";
 @import "navigation";
 @import "footer";
-@import "syntax";
 @import "cookie-consent";
-
-@import "forms";
+@import "syntax";
 
 @import "page";
 @import "archive";
 @import "sidebar";
 
-@import "vendor/fontawesome/fontawesome";
-@import "vendor/fontawesome/brands";
-@import "vendor/fontawesome/solid";
 @import "print";
 @import "collapse";
 
