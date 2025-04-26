@@ -115,9 +115,10 @@ blockquote {
   }
 }
 
-/* links */
+/* links and cookie consent buttons */
 
-a {
+a,
+.cookie-consent-content button {
 
   &:focus,
   &:hover,

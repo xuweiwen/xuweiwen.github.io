@@ -33,6 +33,10 @@ audio:not([controls]) {
 
 a {
   color: $link-color;
+}
+
+a,
+.cookie-consent-content button {
 
   &:focus,
   &:hover,

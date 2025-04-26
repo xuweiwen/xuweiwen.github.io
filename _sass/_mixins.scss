@@ -3,9 +3,11 @@
    ========================================================================== */
 
 @mixin tab-focus {
-  outline: 2px solid $warning-color;
+  outline: none; // remove default outline
+  box-shadow:
+    0 0 0 1px white, // inner layer
+    0 0 0 3px $warning-color; // outer layer
 }
-
 /*
    em function
    ========================================================================== */
