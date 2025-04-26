@@ -73,9 +73,11 @@ exclude:
   - LICENSE
   - README
   - Rakefile
-  - assets/js/_main.js
-  - assets/js/plugins
-  - assets/js/vendor
+  # comment the following three out if debugging with original JS files
+  - assets/js/main.js
+  - assets/js/modules
+  - assets/js/utils
+  - _pages/includes
   - config
   - gulpfile.js
   - log
