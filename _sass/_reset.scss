@@ -19,8 +19,7 @@ body { margin: 0; }
 
 /* Selected elements */
 
-::selection,
-::-moz-selection {
+::selection {
   color: #fff;
   background: #000;
 }

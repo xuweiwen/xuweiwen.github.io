@@ -1,0 +1,43 @@
+name: Generate syntax SCSS
+
+on:
+  workflow_dispatch:
+
+jobs:
+  generate-syntax-scss:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Checkout the repository code
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # Step 2: Install Ruby (required to run rougify)
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.3'
+
+      # Step 3: Install rougify
+      - name: Install rouge
+        run: gem install rouge
+
+      # Step 4: Generate the syntax.scss file
+      - name: Generate syntax.css using rougify
+        run: rougify style github --theme github > assets/css/_syntax.scss
+
+      # Step 5: Commit the generated syntax.css and push back to the repository
+      - name: Commit and push _syntax.scss if changed
+        run: |
+          git config --global user.email "actions@github.com"
+          git config --global user.name "GitHub Actions"
+          git add assets/css/_syntax.scss
+          if git diff --cached --quiet; then
+            echo "assets/css/_syntax.scss has not changed. Skipping commit and push."
+          else
+            git commit -m "Generated _syntax.scss using rougify"
+            git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+            git push
+          fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
