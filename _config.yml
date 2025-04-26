@@ -95,6 +95,10 @@ markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 # Conversion
 markdown: kramdown
 highlighter: rouge
+# uncomment this if use github theme
+# also switch @import "syntax"; -> @import "rouge"; in assets/css/main.scss
+# rouge:
+#   theme: github # uncomment this if use github theme
 excerpt_separator: "\n\n"
 incremental: false
 
