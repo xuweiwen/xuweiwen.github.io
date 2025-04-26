@@ -77,7 +77,7 @@ exclude:
   - assets/js/main.js
   - assets/js/modules
   - assets/js/utils
-  - _pages/includes
+  # - _pages/includes
   - config
   - gulpfile.js
   - log
