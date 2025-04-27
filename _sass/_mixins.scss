@@ -49,3 +49,16 @@
     display: table;
   }
 }
+
+/*
+   Custom media query mixin
+   Usage:
+     @include breakpoint($medium) {
+       your styles
+     }
+   ========================================================================== */
+@mixin breakpoint($query) {
+  @media (min-width: $query) {
+    @content;
+  }
+}
