@@ -16,29 +16,9 @@
   @return ($target / $context) * 1em;
 }
 
-
 /*
    Bourbon clearfix
    ========================================================================== */
-
-/*
-  * Provides an easy way to include a clearfix for containing floats.
-  * link http://cssmojo.com/latest_new_clearfix_so_far/
-  *
-  * example scss - Usage
-  *
-  * .element {
-  *   @include clearfix;
-  * }
-  *
-  * example css - CSS Output
-  *
-  * .element::after {
-  *   clear: both;
-  *   content: "";
-  *   display: table;
-  * }
-*/
 
 @mixin clearfix {
   clear: both;
@@ -46,7 +26,7 @@
   &::after {
     clear: both;
     content: "";
-    display: table;
+    display: block;
   }
 }
 
@@ -61,4 +41,11 @@
   @media (min-width: $query) {
     @content;
   }
+}
+
+@mixin container {
+  width: 100%;
+  max-width: $large;
+  margin-left: auto;
+  margin-right: auto;
 }
