@@ -20,6 +20,7 @@ baidu_site_verification  : # get baidu_site_verification from https://ziyuan.bai
 
 # Site Author
 author:
+  locale           : "en-US"
   name             : "Wei Xu"
   avatar           : "images/avatar.jpg"
   bio              : "ECE Ph.D. candidate at Purdue"
