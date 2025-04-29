@@ -8,11 +8,11 @@
   left: 0;
   width: 100%;
   background: #555960;
-  color: white;
+  color: #fff;
   padding: .5em;
   text-align: center;
   font-size: 1em;
-  z-index: 9999;
+  z-index: 8500;
 
   p {
     margin: 0;
@@ -20,7 +20,7 @@
 
   button {
     background-color: #daaa00;
-    color: white;
+    color: #fff;
     padding: .5em .75em;
     border: none;
     cursor: pointer;

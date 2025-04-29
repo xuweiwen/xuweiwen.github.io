@@ -5,7 +5,7 @@
 @mixin tab-focus {
   outline: none; // remove default outline
   box-shadow:
-    0 0 0 1px white, // inner layer
+    0 0 0 1px #fff, // inner layer
     0 0 0 3px $warning-color; // outer layer
 }
 /*
