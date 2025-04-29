@@ -9,4 +9,10 @@
   color: $primary-color;
   border-top: 1px solid $border-color;
   margin-top: 2em;
+  a {
+    text-decoration: none;
+    span {
+      text-decoration: underline;
+    }
+  }
 }
