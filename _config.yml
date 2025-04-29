@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Wei Xu"
-description              : "Ph.D. candidate in Electrical and Computer Engineering."
+description              : "A Ph.D. candidate in Elmore Family School of Electrical and Computer Engineering at Purdue University."
 url                      : "https://www.weixu.xyz"
 
 # google analytics
@@ -22,7 +22,7 @@ baidu_site_verification  : # get baidu_site_verification from https://ziyuan.bai
 author:
   name             : "Wei Xu"
   avatar           : "images/avatar.jpg"
-  bio              : "Purdue University"
+  bio              : "ECE Ph.D. candidate at Purdue"
   location         : "West Lafayette, IN"
   employer         :
   googlescholar    : "https://scholar.google.com/citations?user=Dc6Eq1cAAAAJ&hl=en"
