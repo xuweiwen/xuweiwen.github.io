@@ -70,7 +70,6 @@ exclude:
   - Capfile
   - Gemfile
   - Gruntfile.js
-  - LICENSE
   - README
   - Rakefile
   # comment the following three out if debugging with original JS files
