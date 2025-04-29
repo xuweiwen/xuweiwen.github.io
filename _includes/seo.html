@@ -13,6 +13,7 @@
 {% assign seo_description = page.description | default: page.excerpt | default: site.description %}
 {% if seo_description %}
   {% assign seo_description = seo_description | markdownify | strip_html | strip_newlines | escape_once %}
+  <meta property="og:description" content="{{ seo_description }}" />
 {% endif %}
 
 <meta property="og:locale" content="en" />
@@ -25,20 +26,6 @@
 {% if seo_url %}
   <link rel="canonical" href="{{ page.url | prepend: seo_url | replace: "/index.html", "/" }}" />
   <meta property="og:url" content="{{ page.url | prepend: seo_url | replace: "/index.html", "/" }}" />
-{% endif %}
-
-{% if page.excerpt %}
-  <meta property="og:description" content="{{ seo_description }}" />
-{% endif %}
-
-{% if site.facebook %}
-  {% if site.facebook.publisher %}
-    <meta property="article:publisher" content="{{ site.facebook.publisher }}" />
-  {% endif %}
-
-  {% if site.facebook.app_id %}
-    <meta property="fb:app_id" content="{{ site.facebook.app_id }}" />
-  {% endif %}
 {% endif %}
 
 {% if site.google_site_verification %}

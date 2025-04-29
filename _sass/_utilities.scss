@@ -63,47 +63,42 @@ body:hover .visually-hidden button {
 
 /*
    Skip links
-
-   Usage (use the section with the id of the main content as an example):
-   <ul class="skip-link">
-     <li><a href="#main">Skip to main content</a></li>
-   </ul>
    ========================================================================== */
 
 .skip-link {
   position: fixed;
-  top: 0;
-  left: 0;
+  top: 0.5rem;
+  left: 50%;
+  transform: translateX(-50%);
   z-index: 1000;
-  margin: 0;
-  padding: 0;
-  list-style: none;
+
+  display: flex;
+  gap: 1rem;
+  padding: .5rem;
+  background: $lighter-gray;
+  border-radius: $border-radius;
+  box-shadow: $box-shadow;
+  opacity: 0;
+  pointer-events: none;
+  transition: $global-transition;
+
+  &:has(a:focus) {
+    opacity: 1;
+    pointer-events: auto;
+  }
 
   a {
-    position: absolute;
-    left: -999px; /* Hide off-screen */
-    top: auto;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    background: #fff;
-    color: $primary-color;
-    border: 2px solid $primary-color;
-    padding: 0.5em 1em;
+    color: white;
+    padding: .5rem;
+    background: $primary-color;
     font-family: $sans-serif;
     font-size: $type-size-6;
-    white-space: nowrap;
     text-decoration: none;
+    border-radius: $border-radius;
     transition: $global-transition;
 
     &:focus {
-      left: 1rem;  /* Slide into view */
-      top: 1rem;
-      width: auto;
-      height: auto;
-      overflow: visible;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Add subtle shadow */
-      background: $lighter-gray;
+      background: $info-color;
     }
   }
 }
