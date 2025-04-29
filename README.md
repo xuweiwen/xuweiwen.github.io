@@ -6,7 +6,7 @@ This is the source code to Wei Xu's public academic webpage: [https://weixu.xyz/
 
 ## License
 
-This project is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0). You may not use the material for commercial purposes, and you may not alter, transform, or build upon this work. See [`LICENSE`](LICENSE) for full details.
+This project is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0). You may not use the material for commercial purposes, and you may not alter, transform, or build upon this work. See [`LICENSE`](LICENSE.txt) for full details.
 
 ### Third-party Components
 
