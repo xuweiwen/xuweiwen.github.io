@@ -1,12 +1,12 @@
 # Wei Xu's homepage
 
-[![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/) [![Built with Jekyll](https://img.shields.io/badge/built%20with-Jekyll-55b8d3.svg)](https://jekyllrb.com/)
+[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/) [![Built with Jekyll](https://img.shields.io/badge/built%20with-Jekyll-55b8d3.svg)](https://jekyllrb.com/)
 
 This is the source code to Wei Xu's public academic webpage: [https://weixu.xyz/](https://weixu.xyz/).
 
 ## License
 
-This project is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0). You may not use the material for commercial purposes, and you may not alter, transform, or build upon this work. See [`LICENSE`](LICENSE.txt) for full details.
+This project is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0). You may not use the material for commercial purposes, and if you alter, transform, or build upon this work, you must distribute your contributions under the same license. See [`LICENSE`](LICENSE.txt) for full details.
 
 ### Third-party Components
 
