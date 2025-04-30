@@ -22,7 +22,7 @@ baidu_site_verification  : # get baidu_site_verification from https://ziyuan.bai
 author:
   locale           : "en-US"
   name             : "Wei Xu"
-  avatar           : "images/avatar.jpg"
+  avatar           : "/images/avatar.jpg"
   bio              : "ECE Ph.D. candidate at Purdue"
   location         : "West Lafayette, IN"
   employer         :
