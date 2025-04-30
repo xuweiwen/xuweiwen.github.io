@@ -14,11 +14,11 @@ function initSmoothScroll({ offset = 0, duration = 400 } = {}) {
 
   function getScrollTop(element) {
     const rect = element.getBoundingClientRect();
-    return window.pageYOffset + rect.top + offset;
+    return window.scrollY + rect.top + offset;
   }
 
   function smoothScrollTo(targetY, duration) {
-    const startY = window.pageYOffset;
+    const startY = window.scrollY;
     const distance = targetY - startY;
     const startTime = performance.now();
 
