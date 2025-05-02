@@ -12,14 +12,17 @@ html {
   /* apply a natural box layout model to all elements */
   box-sizing: border-box;
   background-color: $background-color;
-  font-size: 15px;
+  font-size: $doc-font-size;
 
   text-size-adjust: 100%;
 }
 
 /* Remove margin */
 
-body { margin: 0; }
+body { 
+  margin: 0;
+  padding: 0;
+}
 
 /* Selected elements */
 
@@ -32,25 +35,6 @@ body { margin: 0; }
 
 audio:not([controls]) {
   display: none;
-}
-
-a {
-  color: $link-color;
-}
-
-a,
-.cookie-consent-content button,
-.greedy-nav button {
-
-  &:focus,
-  &:hover,
-  &:active {
-    outline: 0;
-  }
-
-  &:focus-visible {
-    @include tab-focus;
-  }
 }
 
 /* Prevent sub and sup affecting line-height in all browsers */

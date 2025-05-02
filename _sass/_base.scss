@@ -8,9 +8,6 @@ html {
 }
 
 body {
-  margin: 0;
-  padding: 0;
-  padding-bottom: 0em;
   color: $text-color;
   font-family: $global-font-family;
   line-height: 1.5;
@@ -115,7 +112,14 @@ blockquote {
   }
 }
 
-/* links and cookie consent buttons */
+/* links and buttons */
+
+a {
+  color: $link-color;
+  &:hover {
+    color: $link-color-hover;
+  }
+}
 
 a,
 .cookie-consent-content button,

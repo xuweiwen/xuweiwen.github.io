@@ -8,13 +8,6 @@
     0 0 0 1px #fff, // inner layer
     0 0 0 3px $warning-color; // outer layer
 }
-/*
-   em function
-   ========================================================================== */
-
-@function em($target, $context: $doc-font-size) {
-  @return ($target / $context) * 1em;
-}
 
 /*
    Bourbon clearfix
