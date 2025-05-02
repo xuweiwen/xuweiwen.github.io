@@ -5,5 +5,5 @@
 @use 'sass:math';
 
 @function modular-scale($step, $ratio: 1.25) {
-  @return math.pow($ratio, $step) * 1em;
+  @return #{math.pow($ratio, $step)}em;
 }
