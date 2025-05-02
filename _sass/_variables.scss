@@ -7,10 +7,11 @@
    ========================================================================== */
 
 $doc-font-size              : 15px;
+$type-scale-ratio           : 1.125;
 
 /* paragraph indention */
 $paragraph-indent           : false; // true, false (default)
-$indent-var                 : 0.5em;
+$indent-var                 : .5em;
 
 /* system typefaces */
 $serif                      : Georgia, Times, serif;
@@ -34,14 +35,15 @@ $header-font-family         : $sans-serif;
 $caption-font-family        : $serif;
 
 /* type scale */
-$type-size-1                : 2.441em;  // ~39.056px
-$type-size-2                : 1.953em;  // ~31.248px
-$type-size-3                : 1.4em;  // ~25.008px
-$type-size-4                : 1.2em;  // ~20px
-$type-size-5                : 1em;  // ~16px
-$type-size-6                : 1em;  // ~12px
-$type-size-7                : 0.6875em;  // ~11px
-$type-size-8                : 0.625em;  // ~10px
+@use 'functions' as *;
+$type-size-1                : modular-scale(4, $type-scale-ratio);
+$type-size-2                : modular-scale(3, $type-scale-ratio);
+$type-size-3                : modular-scale(2, $type-scale-ratio);
+$type-size-4                : modular-scale(1, $type-scale-ratio);
+$type-size-5                : modular-scale(0, $type-scale-ratio);
+$type-size-6                : modular-scale(-1, $type-scale-ratio);
+$type-size-7                : modular-scale(-2, $type-scale-ratio);
+$type-size-8                : modular-scale(-3, $type-scale-ratio);
 
 /*
    Colors
@@ -121,9 +123,9 @@ $grid-gap                   : 1rem;
 $scroll_offset              : 2em;
 $border-radius              : .25rem;
 $box-shadow                 : 3px 3px 6px $shadow-color;;
-$navicon-width              : 21px;
-$navicon-height             : 3px;
-$global-transition          : all 0.2s ease-in-out;
+$navicon-width              : 1.25em;
+$navicon-height             : .2em;
+$global-transition          : all .2s ease-in-out;
 
 :root {
   --text-color: #{$text-color};
