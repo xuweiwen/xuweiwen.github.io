@@ -118,7 +118,8 @@ blockquote {
 /* links and cookie consent buttons */
 
 a,
-.cookie-consent-content button {
+.cookie-consent-content button,
+.greedy-nav button {
 
   &:focus,
   &:hover,
