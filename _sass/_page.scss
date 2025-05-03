@@ -124,12 +124,15 @@
     width: 100%;
     order: 1;
     padding: 0 0 .4em 0;
-    background-color: #fff;
     img {
       max-width: 400px;
       box-shadow: var(--box-shadow);
       object-fit: cover;
       border-radius: $border-radius;
+    }
+    p {
+      margin: 0;
+      background-color: #fff;
     }
   }
   
