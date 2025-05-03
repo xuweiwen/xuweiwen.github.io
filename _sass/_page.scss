@@ -172,7 +172,7 @@ h1:before, .anchor:before {
   color: #fff;
   background-color: $info-color;
   border-radius: $border-radius;
-  font-size: .9em;
+  font-size: $type-size-6;
 }
 
 .badge-text {
@@ -180,7 +180,7 @@ h1:before, .anchor:before {
   padding-right: .4em;
   color: #fff;
   background-color: $info-color;
-  font-size: .9em;
+  font-size: $type-size-6;
   border-radius: $border-radius;
   display: inline-block;
 }

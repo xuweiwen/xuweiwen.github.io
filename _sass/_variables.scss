@@ -7,7 +7,6 @@
    ========================================================================== */
 
 $doc-font-size              : 15px;
-$type-scale-ratio           : 1.125;
 
 /* paragraph indention */
 $paragraph-indent           : false; // true, false (default)
@@ -34,16 +33,15 @@ $global-font-family         : $sans-serif;
 $header-font-family         : $sans-serif;
 $caption-font-family        : $serif;
 
-/* type scale */
-@use 'functions' as *;
-$type-size-1                : modular-scale(4, $type-scale-ratio);
-$type-size-2                : modular-scale(3, $type-scale-ratio);
-$type-size-3                : modular-scale(2, $type-scale-ratio);
-$type-size-4                : modular-scale(1, $type-scale-ratio);
-$type-size-5                : modular-scale(0, $type-scale-ratio);
-$type-size-6                : modular-scale(-1, $type-scale-ratio);
-$type-size-7                : modular-scale(-2, $type-scale-ratio);
-$type-size-8                : modular-scale(-3, $type-scale-ratio);
+/* type scale, scale ratio : 1.125 */
+$type-size-1                : 1.602em;
+$type-size-2                : 1.424em;
+$type-size-3                : 1.266em;
+$type-size-4                : 1.125em;
+$type-size-5                : 1em;
+$type-size-6                : .889em;
+$type-size-7                : .79em;
+$type-size-8                : .702em;
 
 /*
    Colors
