@@ -53,9 +53,6 @@ $darker-gray                : mix(#000, $gray, 70%);
 $light-gray                 : mix(#fff, $gray, 40%);
 $lighter-gray               : mix(#fff, $gray, 70%);
 
-$code-background-color      : #fafafa;
-$code-background-color-dark : $light-gray;
-
 $primary-color              : $gray;
 $success-color              : #62c462;
 $warning-color              : #f89406;
@@ -79,24 +76,26 @@ $xing-color                 : #C6F16D;
 $googlescholar-color        : #4d90fe;
 $envelope-color             : #cfb991;
 
-/* links */
-$link-color                 : $info-color;
-$link-color-hover           : mix(#000, $link-color, 25%);
-$link-color-visited         : mix(#fff, $link-color, 25%);
-$masthead-link-color        : $primary-color;
-$masthead-link-color-hover  : mix(#000, $primary-color, 25%);
-
 :root {
-  --text-color              : #{$dark-gray};
-  --background-color        : #fff;
-  --border-color            : #{$lighter-gray};
-  --box-shadow              : 3px 3px 6px #{$gray};
+  --text-color                : #{$dark-gray};
+  --background-color          : #fff;
+  --border-color              : #{$lighter-gray};
+  --code-background-color     : #fafafa;
+  --masthead-link-color       : #{$gray};
+  --masthead-link-color-hover : #{$dark-gray};
+  --link-color                : #{$info-color};
+  --link-color-hover          : #{darken($info-color, 15%)};
+  --box-shadow                : 3px 3px 6px #{$gray};
 }
 
 [data-theme="dark"] {
-  --text-color              : #{$light-gray};
-  --background-color        : #000;
-  --border-color            : #{$darker-gray};
+  --text-color                : #{$light-gray};
+  --background-color          : #000;
+  --border-color              : #{$darker-gray};
+  --masthead-link-color-hover : #{$light-gray};
+  --code-background-color     : #050505;
+  --link-color                : #{lighten($info-color, 22%)};
+  --link-color-hover          : #{lighten($info-color, 37%)};
 }
 
 /*

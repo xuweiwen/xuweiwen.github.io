@@ -1,7 +1,7 @@
 # <i class="fa-solid fa-fw fa-file-lines" style="color: #bdd7ee"></i> Publications {#publications}
 
 **A complete list of my publications is available on [Google Scholar](https://scholar.google.com/citations?user=Dc6Eq1cAAAAJ&hl=en)**.
-<div style="border-bottom: 1px solid #f4f5f6; margin-bottom: .4em;"></div>
+<div style="border-bottom: 1px solid var(--border-color); margin-bottom: .4em;"></div>
 
 <!-- Blurry-edges -->
 <div class='paper-box'>
