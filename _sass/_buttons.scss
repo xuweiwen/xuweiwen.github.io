@@ -55,7 +55,7 @@
   /* information */
 
   &--info {
-    background-color: $info-color;
+    background-color: var(--link-color);
 
     &:hover {
       background-color: mix(#000, $info-color, 20%);

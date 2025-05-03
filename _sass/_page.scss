@@ -169,8 +169,8 @@ h1:before, .anchor:before {
   position: absolute;
   margin-top: .5em;
   margin-left: -.8em;
-  color: #fff;
-  background-color: $info-color;
+  color: $lighter-gray;
+  background-color: var(--link-color);
   border-radius: $border-radius;
   font-size: $type-size-6;
 }
@@ -178,8 +178,8 @@ h1:before, .anchor:before {
 .badge-text {
   padding-left: .4em;
   padding-right: .4em;
-  color: #fff;
-  background-color: $info-color;
+  color: $lighter-gray;
+  background-color: var(--link-color);
   font-size: $type-size-6;
   border-radius: $border-radius;
   display: inline-block;

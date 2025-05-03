@@ -23,7 +23,7 @@
   }
 
   .header {
-    background-color: $info-color;
+    background-color: var(--link-color);
     border-radius: $border-radius;
     color: #fff;
     padding: 0.2rem 1rem;
