@@ -93,9 +93,9 @@ $envelope-color             : #cfb991;
   --text-color                : #{$light-gray};
   --background-color          : #000;
   --border-color              : #{$darker-gray};
+  --code-background-color     : #050505;
   --masthead-link-color-hover : #{$light-gray};
   --masthead-bkgd-color-hover : #{$darker-gray};
-  --code-background-color     : #050505;
   --link-color                : #{lighten($info-color, 22%)};
   --link-color-hover          : #{lighten($info-color, 37%)};
 }
