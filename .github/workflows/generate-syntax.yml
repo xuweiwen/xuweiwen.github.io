@@ -24,7 +24,7 @@ jobs:
 
       # Step 4: Generate the _syntax.scss file
       - name: Generate _syntax.scss using rougify
-        run: rougify style github > _sass/_syntax.scss
+        run: rougify style github.dark > _sass/_syntax.scss
 
       # Step 5: Commit the generated syntax.css and push back to the repository
       - name: Commit and push _syntax.scss if changed

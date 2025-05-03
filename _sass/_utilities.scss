@@ -350,69 +350,14 @@ body:hover .visually-hidden button {
 .well {
   padding: 1.5rem;
   margin-bottom: 2rem;
-  background-color: #f9f9f9;
-  border: 1px solid #e0e0e0;
+  background-color: var(--background-color-emph);
+  border: 1px solid var(--text-color);
   border-radius: $border-radius;
   box-shadow: var(--box-shadow);
 
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
-}
-
-
-/*
-   Modals
-   ========================================================================== */
-
-.show-modal {
-  overflow: hidden;
-  position: relative;
-
-  &:before {
-    position: absolute;
-    content: "";
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 9000;
-    background-color: rgba(255, 255, 255, 0.85);
-  }
-
-  .modal {
-    display: block;
-  }
-}
-
-.modal {
-  display: none;
-  position: fixed;
-  width: 300px;
-  top: 50%;
-  left: 50%;
-  margin-left: -150px;
-  margin-top: -150px;
-  min-height: 0;
-  z-index: 9500;
-  background: var(--background-color);
-  border: 1px solid var(--border-color);
-  border-radius: $border-radius;
-  box-shadow: var(--box-shadow);
-
-  &__title {
-    margin: 0;
-    padding: 0.5em 1em;
-  }
-
-  &__supporting-text {
-    padding: 0 1em 0.5em 1em;
-  }
-
-  &__actions {
-    padding: 0.5em 1em;
-    border-top: 1px solid var(--border-color);
-  }
 }
 
 

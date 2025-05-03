@@ -158,6 +158,10 @@ a,
 
    ========================================================================== */
 
+.highlight {
+  border-radius: $border-radius;
+}
+
 tt, code, kbd, samp, pre {
   font-family: $monospace;
 }
