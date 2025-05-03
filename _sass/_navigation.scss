@@ -97,10 +97,10 @@
     right: .4rem;
     margin-top: 15px;
     padding: 5px;
-    border: 1px solid $border-color;
+    border: 1px solid var(--border-color);
     border-radius: $border-radius;
     background: var(--background-color);
-    box-shadow: $box-shadow;
+    box-shadow: var(--box-shadow);
 
     a {
       margin: 0;
@@ -120,7 +120,7 @@
       width: 0;
       border-style: solid;
       border-width: 0 10px 10px;
-      border-color: $border-color transparent;
+      border-color: var(--border-color) transparent;
       display: block;
       z-index: 0;
     }
@@ -140,7 +140,7 @@
 
     li {
       display: block;
-      border-bottom: 1px solid $border-color;
+      border-bottom: 1px solid var(--border-color);
 
       &:last-child {
         border-bottom: none;
@@ -202,5 +202,5 @@
   font-size: $type-size-6;
   font-weight: bold;
   text-transform: uppercase;
-  border-bottom: 1px solid $border-color;
+  border-bottom: 1px solid var(--border-color);
 }

@@ -93,11 +93,7 @@
     max-width: 175px;
     min-width: 75px;
     border-radius: $border-radius;
-    box-shadow: $box-shadow;
-
-    // @include breakpoint($large) {
-    //   box-shadow: $box-shadow;
-    // }
+    box-shadow: var(--box-shadow);
   }
 }
 
@@ -106,7 +102,6 @@
   vertical-align: top;
   padding-left: 10px;
   min-width: 120px;
-  // padding-right: 25px;
   line-height: 1;
 
   @include breakpoint($large) {

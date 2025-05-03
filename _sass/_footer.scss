@@ -7,7 +7,7 @@
   padding: 1em 0;
   font-size: $type-size-6;
   color: $primary-color;
-  border-top: 1px solid $border-color;
+  border-top: 1px solid var(--border-color);
   margin-top: 2em;
   a {
     text-decoration: none;

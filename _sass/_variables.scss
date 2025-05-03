@@ -53,13 +53,8 @@ $darker-gray                : mix(#000, $gray, 70%);
 $light-gray                 : mix(#fff, $gray, 40%);
 $lighter-gray               : mix(#fff, $gray, 70%);
 
-// $body-color                 : #fff;
-// $background-color           : #fff;
 $code-background-color      : #fafafa;
 $code-background-color-dark : $light-gray;
-$text-color                 : $dark-gray;
-$border-color               : $lighter-gray;
-$shadow-color               : #888;
 
 $primary-color              : $gray;
 $success-color              : #62c462;
@@ -91,6 +86,19 @@ $link-color-visited         : mix(#fff, $link-color, 25%);
 $masthead-link-color        : $primary-color;
 $masthead-link-color-hover  : mix(#000, $primary-color, 25%);
 
+:root {
+  --text-color              : #{$dark-gray};
+  --background-color        : #fff;
+  --border-color            : #{$lighter-gray};
+  --box-shadow              : 3px 3px 6px #{$gray};
+}
+
+[data-theme="dark"] {
+  --text-color              : #{$light-gray};
+  --background-color        : #000;
+  --border-color            : #{$darker-gray};
+}
+
 /*
    Breakpoints
    ========================================================================== */
@@ -120,17 +128,6 @@ $grid-gap                   : 1rem;
 
 $scroll_offset              : 2em;
 $border-radius              : .25rem;
-$box-shadow                 : 3px 3px 6px $shadow-color;;
 $navicon-width              : 1.25em;
 $navicon-height             : .2em;
 $global-transition          : all .2s ease-in-out;
-
-:root {
-   --text-color: #{$darker-gray};
-   --background-color: #fff;
- }
- 
- [data-theme="dark"] {
-   --text-color: #{$lighter-gray};
-   --background-color: #000;
- }
