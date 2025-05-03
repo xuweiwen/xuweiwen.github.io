@@ -12,7 +12,8 @@
 
 function initResponsiveNav() {
   const nav = document.getElementById('site-nav');
-  const btn = nav.querySelector('button');
+  const btntheme = nav.querySelector('#theme-toggle');
+  const btn = nav.querySelector('#dropdown-menu');
   const vlinks = nav.querySelector('.visible-links');
   const hlinks = nav.querySelector('.hidden-links');
 
@@ -28,8 +29,8 @@ function initResponsiveNav() {
   function updateNav() {
     const btnHidden = hasClass(btn, 'hidden');
     const availableSpace = btnHidden
-      ? nav.offsetWidth
-      : nav.offsetWidth - btn.offsetWidth - 30;
+      ? nav.offsetWidth - btntheme.offsetWidth
+      : nav.offsetWidth - btntheme.offsetWidth - btn.offsetWidth - 30;
 
     // Move items to hidden if overflowing
     while (vlinks.offsetWidth > availableSpace && vlinks.lastElementChild) {

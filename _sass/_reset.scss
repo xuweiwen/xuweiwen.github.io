@@ -11,7 +11,7 @@
 html {
   /* apply a natural box layout model to all elements */
   box-sizing: border-box;
-  background-color: $background-color;
+  background-color: var(--background-color);
   font-size: $doc-font-size;
 
   text-size-adjust: 100%;
@@ -27,8 +27,8 @@ body {
 /* Selected elements */
 
 ::selection {
-  color: #fff;
-  background: #000;
+  color: var(--background-color);
+  background: var(--text-color);
 }
 
 /* Prevents modern browsers from displaying 'audio' without controls */

@@ -8,7 +8,8 @@
             <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}" target="_self">{{ link.title }}</a></li>
           {% endfor %}
         </ul>
-        <button aria-label="Dropdown menu"><div class="navicon"></div></button>
+        <button id="dropdown-menu" aria-label="Dropdown menu"><div class="navicon"></div></button>
+        <button id="theme-toggle" class="button--theme" aria-label="Toggle theme mode"><i class="fa-solid fa-fw fa-sun"></i></button>
         <ul class="hidden-links hidden"></ul>
       </nav>
     </div>

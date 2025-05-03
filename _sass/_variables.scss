@@ -34,27 +34,27 @@ $header-font-family         : $sans-serif;
 $caption-font-family        : $serif;
 
 /* type scale, scale ratio : 1.125 */
-$type-size-1                : 1.602em;
-$type-size-2                : 1.424em;
-$type-size-3                : 1.266em;
-$type-size-4                : 1.125em;
-$type-size-5                : 1em;
-$type-size-6                : .889em;
-$type-size-7                : .79em;
-$type-size-8                : .702em;
+$type-size-1                : 1.602em; // 24.027px
+$type-size-2                : 1.424em; // 21.357px
+$type-size-3                : 1.266em; // 18.984px
+$type-size-4                : 1.125em; // 16.875px
+$type-size-5                : 1em; // 15px
+$type-size-6                : .889em; // 13.333px
+$type-size-7                : .79em; // 11.852px
+$type-size-8                : .702em; // 10.535px
 
 /*
    Colors
    ========================================================================== */
 
-$gray                       : #7a8288;
+$gray                       : #888;
 $dark-gray                  : mix(#000, $gray, 40%);
-$darker-gray                : mix(#000, $gray, 60%);
-$light-gray                 : mix(#fff, $gray, 50%);
-$lighter-gray               : mix(#fff, $gray, 90%);
+$darker-gray                : mix(#000, $gray, 70%);
+$light-gray                 : mix(#fff, $gray, 40%);
+$lighter-gray               : mix(#fff, $gray, 70%);
 
-$body-color                 : #fff;
-$background-color           : #fff;
+// $body-color                 : #fff;
+// $background-color           : #fff;
 $code-background-color      : #fafafa;
 $code-background-color-dark : $light-gray;
 $text-color                 : $dark-gray;
@@ -126,5 +126,11 @@ $navicon-height             : .2em;
 $global-transition          : all .2s ease-in-out;
 
 :root {
-  --text-color: #{$text-color};
-}
+   --text-color: #{$darker-gray};
+   --background-color: #fff;
+ }
+ 
+ [data-theme="dark"] {
+   --text-color: #{$lighter-gray};
+   --background-color: #000;
+ }

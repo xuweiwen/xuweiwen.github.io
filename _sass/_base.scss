@@ -8,7 +8,7 @@ html {
 }
 
 body {
-  color: $text-color;
+  color: var(--text-color);
   font-family: $global-font-family;
   line-height: 1.5;
 
@@ -123,7 +123,8 @@ a {
 
 a,
 .cookie-consent-content button,
-.greedy-nav button {
+.greedy-nav button,
+.greedy-nav .button-theme {
 
   &:focus,
   &:hover,

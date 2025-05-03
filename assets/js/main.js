@@ -1,4 +1,4 @@
-import { initPageHeightAdj, initAuthorInfo, initResponsiveNav, initSmoothScroll, initCollapsibleSections, adjInitScroll } from './modules/index.js';
+import { initPageHeightAdj, initAuthorInfo, initResponsiveNav, initSmoothScroll, initCollapsibleSections, initThemeToggle, adjInitScroll } from './modules/index.js';
 import { initMoveFocusSkipLink, initShowNotice } from './utils/index.js';
 
 const OFFSET = -20;
@@ -10,6 +10,7 @@ document.addEventListener("DOMContentLoaded", function() {
   initAuthorInfo();
   initResponsiveNav();
   initSmoothScroll({ offset: OFFSET, duration: 400 });
+  initThemeToggle();
   initCollapsibleSections({expandedLabel: " - show", collapsedLabel: " - hide"});
   initShowNotice();
   

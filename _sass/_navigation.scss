@@ -9,7 +9,7 @@
 .greedy-nav {
   position: relative;
   min-width: 250px;
-  background: $background-color;
+  background: var(--background-color);
 
   a {
     display: block;
@@ -28,7 +28,7 @@
     position: absolute;
     height: 80%;
     top: .2rem;
-    right: .5rem;
+    right: 2.5rem;
     padding: 0 .5rem;
     border: 0;
     border-radius: $border-radius;
@@ -36,6 +36,16 @@
     background-color: $primary-color;
     color: #fff;
     cursor: pointer;
+  }
+
+  .button--theme {
+    right: 0;
+    padding: 0;
+    background-color: transparent;
+    i {
+      font-size: $type-size-1;
+      color: $masthead-link-color;
+    }
   }
 
   .visible-links {
@@ -84,19 +94,17 @@
   .hidden-links {
     position: absolute;
     top: 100%;
-    right: 0;
+    right: .4rem;
     margin-top: 15px;
-    margin-right: .4rem;
     padding: 5px;
     border: 1px solid $border-color;
     border-radius: $border-radius;
-    background: #fff;
+    background: var(--background-color);
     box-shadow: $box-shadow;
 
     a {
       margin: 0;
       padding: 10px 20px;
-      font-size: $type-size-5;
 
       &:hover {
         color: $masthead-link-color-hover;
@@ -108,7 +116,7 @@
       content: "";
       position: absolute;
       top: -11px;
-      right: 10px;
+      right: 37px;
       width: 0;
       border-style: solid;
       border-width: 0 10px 10px;
@@ -121,7 +129,7 @@
       content: "";
       position: absolute;
       top: -10px;
-      right: 10px;
+      right: 37px;
       width: 0;
       border-style: solid;
       border-width: 0 10px 10px;
