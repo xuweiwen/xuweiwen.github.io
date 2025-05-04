@@ -1,3 +1,9 @@
+/*!
+ * Copyright (c) 2025 Wei Xu
+ * Licensed under the MIT License.
+ * See LICENSE file for full license text.
+ */
+
 function adjInitScroll({ offset = 0, delay = 100 } = {}) {
   if (window.location.hash) {
     const element = document.querySelector(window.location.hash);

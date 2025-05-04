@@ -1,3 +1,9 @@
+/*!
+ * Copyright (c) 2025 Wei Xu
+ * Licensed under the MIT License.
+ * See LICENSE file for full license text.
+ */
+
 function initShowNotice() {
   const links = document.querySelectorAll('.show-notice-link');
 

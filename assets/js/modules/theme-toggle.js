@@ -1,3 +1,9 @@
+/*!
+ * Copyright (c) 2025 Wei Xu
+ * Licensed under the MIT License.
+ * See LICENSE file for full license text.
+ */
+
 function initThemeToggle() {
 
   const themeToggle = document.getElementById('theme-toggle');

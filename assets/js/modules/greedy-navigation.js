@@ -6,7 +6,7 @@
  * following the logic and structure of the original version.
  *
  * Copyright (c) 2025 Wei Xu
- * Modifications licensed under the MIT License
+ * Modifications licensed under the MIT License.
  * See LICENSE file for full license text.
  */
 

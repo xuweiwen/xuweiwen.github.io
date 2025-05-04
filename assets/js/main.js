@@ -1,3 +1,9 @@
+/*!
+ * Copyright (c) 2025 Wei Xu
+ * Licensed under the MIT License.
+ * See LICENSE file for full license text.
+ */
+
 import { initPageHeightAdj, initAuthorInfo, initResponsiveNav, initSmoothScroll, initCollapsibleSections, initThemeToggle, adjInitScroll } from './modules/index.js';
 import { initMoveFocusSkipLink, initShowNotice } from './utils/index.js';
 

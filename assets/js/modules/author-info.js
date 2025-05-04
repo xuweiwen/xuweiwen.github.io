@@ -1,3 +1,9 @@
+/*!
+ * Copyright (c) 2025 Wei Xu
+ * Licensed under the MIT License.
+ * See LICENSE file for full license text.
+ */
+
 function initAuthorInfo() {
   var stickySideBar = function() {
     var button = document.querySelector(".author__urls-wrapper button");

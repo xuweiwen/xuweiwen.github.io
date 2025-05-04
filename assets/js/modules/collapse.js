@@ -1,3 +1,9 @@
+/*!
+ * Copyright (c) 2025 Wei Xu
+ * Licensed under the MIT License.
+ * See LICENSE file for full license text.
+ */
+
 function initCollapsibleSections({expandedLabel = " - show", collapsedLabel = " - hide"} = {}) {
   document.querySelectorAll(".header").forEach(header => {
     const content = header.nextElementSibling;

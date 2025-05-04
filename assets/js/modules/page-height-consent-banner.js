@@ -1,3 +1,9 @@
+/*!
+ * Copyright (c) 2025 Wei Xu
+ * Licensed under the MIT License.
+ * See LICENSE file for full license text.
+ */
+
 function initPageHeightAdj() {
   const banner = document.getElementById("cookie-consent-banner");
   var bumpIt = function() {
