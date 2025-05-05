@@ -16,8 +16,8 @@ function initThemeToggle() {
     icon.style.opacity = 0;
 
     setTimeout(() => {
-      icon.classList.toggle('fa-sun', theme === 'light');
-      icon.classList.toggle('fa-moon', theme === 'dark');
+      icon.classList.toggle('fa-moon', theme === 'light');
+      icon.classList.toggle('fa-sun', theme === 'dark');
       icon.style.opacity = 1;
     }, 100);
   }
