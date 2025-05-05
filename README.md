@@ -1,6 +1,6 @@
 # Wei Xu's homepage
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-lightgrey.svg)](https://github.com/xuweiwen/xuweiwen.github.io/blob/master/LICENSE.txt) [![Built with Jekyll](https://img.shields.io/badge/built%20with-Jekyll-55b8d3.svg)](https://jekyllrb.com/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-lightgrey.svg)](https://github.com/xuweiwen/xuweiwen.github.io/blob/master/LICENSE.txt) [![Built with Jekyll](https://img.shields.io/badge/Built%20with-Jekyll-55b8d3.svg)](https://jekyllrb.com/)
 
 This is the source code to Wei Xu's public academic webpage: [https://weixu.xyz/](https://weixu.xyz/).
 
