@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-lightgrey.svg)](https://github.com/xuweiwen/xuweiwen.github.io/blob/master/LICENSE.txt) [![Built with Jekyll](https://img.shields.io/badge/Built%20with-Jekyll-55b8d3.svg)](https://jekyllrb.com/)
 
-**ProfilAcademique** is the source code for Wei Xu's public academic webpage: [https://weixu.xyz/](https://weixu.xyz/).
+**ProfilAcademique** is a Jekyll template developed by Wei Xu for his public academic webpage: [https://weixu.xyz/](https://weixu.xyz/).
 
 ## License
 
