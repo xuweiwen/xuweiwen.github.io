@@ -10,7 +10,7 @@ This project is licensed under the MIT License. See [`LICENSE`](LICENSE.txt) for
 
 ### Third-party Components
 
-This website uses the following open-source projects, each licensed separately:
+This website uses and references the following open-source projects, each licensed separately:
 
 - [AcadHomepage](https://github.com/RayeRen/acad-homepage.github.io) by Yi Ren, licensed under the MIT License.
 - [Font Awesome 6](https://fontawesome.com/) by Fonticons, Inc., fonts licensed under the SIL OFL 1.1 License, code licensed under the MIT License.
