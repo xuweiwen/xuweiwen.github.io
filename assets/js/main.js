@@ -1,5 +1,6 @@
 /*!
  * Copyright (c) 2025 Wei Xu
+ * ProfilAcademique: https://github.com/xuweiwen/ProfilAcademique
  * Licensed under the MIT License.
  * See LICENSE file for full license text.
  */

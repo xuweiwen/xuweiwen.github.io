@@ -6,6 +6,7 @@
  * following the logic and structure of the original version.
  *
  * Copyright (c) 2025 Wei Xu
+ * ProfilAcademique: https://github.com/xuweiwen/ProfilAcademique
  * Modifications licensed under the MIT License.
  * See LICENSE file for full license text.
  */
