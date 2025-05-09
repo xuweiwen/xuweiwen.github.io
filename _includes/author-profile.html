@@ -31,7 +31,7 @@
             const [user, domain] = email.split("@");
             const fullEmail = `${user} [at] ${domain}`;
             document.write(
-              `<a href="mailto:{{ author.email }}"><i class="fa-solid fa-fw fa-envelope" aria-hidden="true"></i> ${fullEmail}</a>`
+              `<a href="mailto:{{ author.email }}"><i class="fa-solid fa-fw fa-envelope" aria-hidden="true"></i> <span>${fullEmail}</span></a>`
             );
           </script>
         </li>
