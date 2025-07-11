@@ -29,30 +29,9 @@ author:
   employer         :
   googlescholar    : "https://scholar.google.com/citations?user=Dc6Eq1cAAAAJ&hl=en"
   email            : "weixu@purdue.edu"
-  researchgate     : # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
-  bitbucket        :
-  codepen          :
-  dribbble         :
-  flickr           :
-  facebook         :
-  foursquare       :
   github           : "xuweiwen" # e.g., "github username"
-  keybase          :
-  instagram        :
-  lastfm           :
   linkedin         : "weixuxyz" # e.g., "linkedin username"
-  orcid            : # e.g., "https://orcid.org/xxxx"
-  pinterest        :
-  soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
-  steam            :
-  tumblr           :
-  weibo            :
-  xing             :
-  youtube          :
-  wikipedia        :
-
 
 # Reading Files
 include:
