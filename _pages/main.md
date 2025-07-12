@@ -6,6 +6,8 @@ redirect_from:
   - /main/
 ---
 
+<span class='anchor' id='about-me'></span>
+
 {% include_relative includes/about.md %}
 
 {% include_relative includes/news.md %}
