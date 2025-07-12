@@ -43,15 +43,22 @@ function initSmoothScroll({ offset = 0, duration = 400 } = {}) {
     link.addEventListener("click", function (e) {
       const href = link.getAttribute("href");
       const url = new URL(href, window.location.href);
-      const isSamePath = url.pathname === window.location.pathname;
+      const isSamePath = url.pathname.replace(/\/$/, '') === window.location.pathname.replace(/\/$/, '');
       const isSameHost = url.hostname === window.location.hostname;
-      const hasHash = url.hash.length > 1;
+      const isTopAnchor = href === "#" || url.hash === "#";
+      const hasHash = url.hash.length > 1 || isTopAnchor;
+      if (!isTopAnchor && !document.querySelector(url.hash)) return;
+      if (!href || href.startsWith('javascript:')) return;
       if (isSamePath && isSameHost && hasHash) {
-        const target = document.querySelector(url.hash);
-        if (target) {
-          e.preventDefault();
-          const targetY = getScrollTop(target);
-          smoothScrollTo(targetY, duration);
+        e.preventDefault();
+        if (isTopAnchor) {
+          smoothScrollTo(0, duration);
+        } else {
+          const target = document.querySelector(url.hash);
+          if (target) {
+            const targetY = getScrollTop(target);
+            smoothScrollTo(targetY, duration);
+          }
         }
       }
     });

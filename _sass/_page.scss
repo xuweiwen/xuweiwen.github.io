@@ -39,16 +39,6 @@
 }
 
 .page__content {
-  #about-me{
-    position: relative;
-      &:before { 
-        content: ''; 
-        display: block; 
-        height: 30em; 
-        margin-top: -30em;
-        visibility: hidden;
-    }
-  }
   
   h1 {
     margin-top: 1em;
