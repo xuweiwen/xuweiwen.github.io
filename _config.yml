@@ -27,11 +27,11 @@ author:
   bio              : "ECE Ph.D. candidate at Purdue"
   location         : "West Lafayette, IN"
   employer         :
-  googlescholar    : "https://scholar.google.com/citations?user=Dc6Eq1cAAAAJ&hl=en"
+  googlescholar    : "Dc6Eq1cAAAAJ" # e.g., "Google Scholar ID"
   email            : "weixu@purdue.edu"
   uri              :
-  github           : "xuweiwen" # e.g., "github username"
-  linkedin         : "weixuxyz" # e.g., "linkedin username"
+  github           : "xuweiwen" # e.g., "GitHub username"
+  linkedin         : "weixuxyz" # e.g., "LinkedIn username"
 
 # Reading Files
 include:
