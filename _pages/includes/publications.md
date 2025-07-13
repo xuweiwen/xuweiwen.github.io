@@ -1,17 +1,17 @@
 # <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-fw" aria-hidden="true" focusable="false" style="color: #3485cb" viewBox="0 0 384 512"><path d="M64 0C28.7 0 0 28.7 0 64L0 448c0 35.3 28.7 64 64 64l256 0c35.3 0 64-28.7 64-64l0-288-128 0c-17.7 0-32-14.3-32-32L224 0 64 0zM256 0l0 128 128 0L256 0zM112 256l160 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-160 0c-8.8 0-16-7.2-16-16s7.2-16 16-16zm0 64l160 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-160 0c-8.8 0-16-7.2-16-16s7.2-16 16-16zm0 64l160 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-160 0c-8.8 0-16-7.2-16-16s7.2-16 16-16z"/></svg> Publications {#publications}
 
 **A complete list of my publications is available on [Google Scholar](https://scholar.google.com/citations?user=Dc6Eq1cAAAAJ&hl=en)**.
-<div style="border-bottom: 1px solid var(--border-color); margin-bottom: .4em;"></div>
+<div class="custom-divider"></div>
 
 <!-- Blurry-edges -->
-<div class='paper-box'>
-<div class='paper-box-image'>
+<div class="paper-box">
+<div class="paper-box-image">
 <div markdown="1">
 <div class="badge-image">CVPR 2025</div>
 ![Blurry-Edges cover]({{ "/images/publication-teaser/blurry-edges.png" | relative_url }}){: width="100%" }
 </div>
 </div>
-<div class='paper-box-text' markdown="1">
+<div class="paper-box-text" markdown="1">
 
 [Blurry-Edges: Photon-Limited Depth Estimation from Defocused Boundaries](https://arxiv.org/abs/2503.23606)<br>
 **Wei Xu**, Charles James Wagner, Junjie Luo, Qi Guo<br>
@@ -22,14 +22,14 @@ IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2025<br>
 </div>
 
 <!-- CT-Bound -->
-<div class='paper-box'>
-<div class='paper-box-image'>
+<div class="paper-box">
+<div class="paper-box-image">
 <div markdown="1">
 <div class="badge-image">MMSP 2024</div>
 ![CT-Bound cover]({{ "/images/publication-teaser/ct-bound.png" | relative_url }}){: width="100%" }
 </div>
 </div>
-<div class='paper-box-text' markdown="1">
+<div class="paper-box-text" markdown="1">
 
 [CT-Bound: Robust Boundary Detection from Noisy Images Via Hybrid Convolution and Transformer Neural Networks](https://ieeexplore.ieee.org/abstract/document/10743517)<br>
 **Wei Xu**, Junjie Luo, Qi Guo<br>
