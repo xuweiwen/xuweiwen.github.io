@@ -8,7 +8,7 @@
 <div class="paper-box-image">
 <div markdown="1">
 <div class="badge-image">CVPR 2025</div>
-![Blurry-Edges cover]({{ "/images/publication-teaser/blurry-edges.png" | relative_url }}){: width="100%" }
+![Blurry-Edges cover]({{ "/images/publication-teaser/blurry-edges.png" | relative_url }})
 </div>
 </div>
 <div class="paper-box-text" markdown="1">
@@ -26,7 +26,7 @@ IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2025<br>
 <div class="paper-box-image">
 <div markdown="1">
 <div class="badge-image">MMSP 2024</div>
-![CT-Bound cover]({{ "/images/publication-teaser/ct-bound.png" | relative_url }}){: width="100%" }
+![CT-Bound cover]({{ "/images/publication-teaser/ct-bound.png" | relative_url }})
 </div>
 </div>
 <div class="paper-box-text" markdown="1">
