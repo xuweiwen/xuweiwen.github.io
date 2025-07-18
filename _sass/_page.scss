@@ -127,7 +127,7 @@
     width: 100%;
     order: 1;
     p {
-      margin: .5em 0 0 0;
+      margin: .5em 0;
     }
     img {
       width: 100%;
@@ -157,6 +157,9 @@
       padding-left: 2em;
       max-width: 65%;
       order: 2;
+      p {
+        margin: .5em 0;
+      }
     }
   }
 }
