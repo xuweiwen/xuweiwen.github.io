@@ -211,4 +211,11 @@ h2:before, .anchor:before {
   p {
     margin: 0;
   }
+
+  img {
+    max-width: 6em;
+    max-height: 1.5em;
+    width: 100%;
+    height: auto;
+  }
 }
