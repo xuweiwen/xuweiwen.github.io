@@ -52,41 +52,39 @@
   box-shadow: var(--box-shadow);
   display: none;
 
-  #{&} {
-    > h4 {
-      margin-top: 0;
-      margin-bottom: $space-var;
-      color: $dark-gray;
+  > h4 {
+    margin-top: 0;
+    margin-bottom: $space-var;
+    color: $dark-gray;
+  }
+
+  > p {
+    &:last-child {
+      margin-bottom: 0;
     }
+    color: $dark-gray;
+  }
 
-    > p {
-      &:last-child {
-        margin-bottom: 0;
-      }
-      color: $dark-gray;
+  > h4 + p {
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  > a {
+    color: $notice-color;
+
+    &:hover {
+      color: mix(#000, $notice-color, 40%);
     }
+  }
 
-    > h4 + p {
-      margin-top: 0;
-      padding-top: 0;
-    }
+  > code {
+    background-color: mix(#fff, $notice-color, 95%);
+  }
 
-    > a {
-      color: $notice-color;
-
-      &:hover {
-        color: mix(#000, $notice-color, 40%);
-      }
-    }
-
-    > code {
-      background-color: mix(#fff, $notice-color, 95%);
-    }
-
-    > ul {
-      &:last-child {
-        margin-bottom: 0;
-      }
+  > ul {
+    &:last-child {
+      margin-bottom: 0;
     }
   }
 
