@@ -198,3 +198,17 @@ h2:before, .anchor:before {
 .custom-divider {
   @include divider();
 }
+
+.univertisy_logo_motto {
+  align-items: center;
+  justify-content: center;
+  gap: 0 1em;
+  flex-wrap: wrap;
+  min-width: 50%;
+  width: fit-content;
+  display: none;
+
+  p {
+    margin: 0;
+  }
+}
