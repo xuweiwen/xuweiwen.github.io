@@ -7,6 +7,7 @@
 
 function initThemeToggle() {
 
+  const metaThemeColor = document.querySelector('meta[name="theme-color"]');
   const themeToggle = document.getElementById('theme-toggle');
   const moonIcon = document.getElementById('icon-moon');
   const sunIcon = document.getElementById('icon-sun');
@@ -20,9 +21,11 @@ function initThemeToggle() {
     if (theme === 'light') {
       moonIcon.style.opacity = 1;
       sunIcon.style.opacity = 0;
+      metaThemeColor.setAttribute('content', '#ffffff');
     } else {
       moonIcon.style.opacity = 0;
       sunIcon.style.opacity = 1;
+      metaThemeColor.setAttribute('content', '#000000');
     }
   }
   
