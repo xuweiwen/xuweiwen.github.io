@@ -213,10 +213,10 @@ h2:before, .anchor:before {
   }
 
   img {
-    width: auto;
-    height: 1.5 em;
     max-width: 6em;
     max-height: 100%;
+    width: auto;
+    height: 1.5 em;
     object-fit: contain;
     display: inline-block;
   }
