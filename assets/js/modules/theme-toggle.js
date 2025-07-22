@@ -13,20 +13,17 @@ function initThemeToggle() {
   const sunIcon = document.getElementById('icon-sun');
 
   function setTheme(theme) {
+    const isLight = theme === 'light';
     document.documentElement.setAttribute('data-theme', theme);
     localStorage.setItem('theme', theme);
-    sunIcon.classList.toggle('visible', theme === 'dark');
-    moonIcon.classList.toggle('visible', theme === 'light');
+    
+    moonIcon.classList.toggle('visible', isLight);
+    sunIcon.classList.toggle('visible', !isLight);
 
-    if (theme === 'light') {
-      moonIcon.style.opacity = 1;
-      sunIcon.style.opacity = 0;
-      metaThemeColor.setAttribute('content', '#ffffff');
-    } else {
-      moonIcon.style.opacity = 0;
-      sunIcon.style.opacity = 1;
-      metaThemeColor.setAttribute('content', '#000000');
-    }
+    moonIcon.style.opacity = isLight ? 1 : 0;
+    sunIcon.style.opacity = isLight ? 0 : 1;
+
+    metaThemeColor.setAttribute('content', isLight ? '#ffffff' : '#000000');
   }
   
   // Toggle theme on button click
