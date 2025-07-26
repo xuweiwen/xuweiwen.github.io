@@ -5,7 +5,7 @@
  * See LICENSE file for full license text.
  */
 
-import { initPageHeightAdj, initAuthorInfo, initResponsiveNav, initCollapsibleSections, initThemeToggle, adjInitScroll } from './modules/index.js';
+import { initPageHeightAdj, initAuthorInfo, initResponsiveNav, initCollapsibleSections, initThemeToggle } from './modules/index.js';
 import { initMoveFocusSkipLink, initShowNotice } from './utils/index.js';
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -18,8 +18,4 @@ document.addEventListener('DOMContentLoaded', function() {
   initCollapsibleSections({expandedLabel: ' - show', collapsedLabel: ' - hide'});
   initShowNotice();
   
-});
-
-window.addEventListener('load', function() {
-  adjInitScroll({ offset: OFFSET, delay: 300 });
 });
