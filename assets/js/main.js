@@ -5,10 +5,8 @@
  * See LICENSE file for full license text.
  */
 
-import { initPageHeightAdj, initAuthorInfo, initResponsiveNav, initSmoothScroll, initCollapsibleSections, initThemeToggle, adjInitScroll } from './modules/index.js';
+import { initPageHeightAdj, initAuthorInfo, initResponsiveNav, initCollapsibleSections, initThemeToggle, adjInitScroll } from './modules/index.js';
 import { initMoveFocusSkipLink, initShowNotice } from './utils/index.js';
-
-const OFFSET = -20;
 
 document.addEventListener('DOMContentLoaded', function() {
 
@@ -16,7 +14,6 @@ document.addEventListener('DOMContentLoaded', function() {
   initMoveFocusSkipLink('skip-link-main-content');
   initAuthorInfo();
   initResponsiveNav();
-  initSmoothScroll({ offset: OFFSET, duration: 400 });
   initThemeToggle();
   initCollapsibleSections({expandedLabel: ' - show', collapsedLabel: ' - hide'});
   initShowNotice();
