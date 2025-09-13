@@ -1,4 +1,4 @@
-## {% include icon.html name="gear" %} Services {#services}
+## <span class="icon-inline">{% include icon.html name="gear" %}</span> Services {#services}
 
 - *TC Reviewer*, IEEE SPS Multimedia Signal Processing Technical Committee (MMSP TC), 2025 - Present
 - *Reviewer*, IEEE Transactions on Image Processing (TIP), 2025 - Present
