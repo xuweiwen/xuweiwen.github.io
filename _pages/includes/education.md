@@ -1,4 +1,4 @@
-## <svg {% include icon.html name="graduation-cap" %}><path d="{{ site.data.icons['graduation-cap'].d }}">/></svg> Education {#education}
+## <svg {% include icon_attr.html name="graduation-cap" %}><path d="{{ site.data.icons['graduation-cap'].d }}">/></svg> Education {#education}
 
 - Ph.D. in Electrical and Computer Engineering, <a href="#" class="show-notice-link" data-target="Purdue" data-display-style="flex" style="color: var(--text-color); text-decoration-color: #8e6f3e;">Purdue University</a>, 2021 - Present
   <div id="Purdue" class="notice--info univertisy_logo_motto" markdown="1" style="background-color: #ebd99f;">

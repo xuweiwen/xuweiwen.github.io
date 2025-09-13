@@ -2,7 +2,7 @@ I am a Ph.D. candidate in [Elmore Family School of Electrical and Computer Engin
 
 Prior to Purdue, I completed my M.S. in [Khoury College of Computer Sciences](https://www.khoury.northeastern.edu/) at [Northeastern University](https://www.northeastern.edu) under the supervision of [Prof. Lawson L.S. Wong](http://www.ccs.neu.edu/home/lsw/). Previously, I received my B.Eng. and M.S. in Department of Process Equipment and Control Engineering at [Tianjin University](http://www.tju.edu.cn), advised by [Prof. Liyan Liu](https://scet.tju.edu.cn/info/1162/3253.htm).
 
-<p><svg {% include icon.html name="file" %}><path d="{{ site.data.icons['file'].d }}">/></svg> Download my <a href="#" class="show-notice-link" data-target="CV">curriculum vitae</a> (temporarily unavailable).</p>
+<p><svg {% include icon_attr.html name="file" %}><path d="{{ site.data.icons['file'].d }}">/></svg> Download my <a href="#" class="show-notice-link" data-target="CV">curriculum vitae</a> (temporarily unavailable).</p>
 <div id="CV" class="notice--info" markdown="1">
 #### Heads up!
 The curriculum vitae is temporarily unavailable. I will update it ASAP.

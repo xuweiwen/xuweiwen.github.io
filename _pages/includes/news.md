@@ -1,4 +1,4 @@
-## <svg {% include icon.html name="fire" %}><path d="{{ site.data.icons['fire'].d }}">/></svg> News {#news}
+## <svg {% include icon_attr.html name="fire" %}><path d="{{ site.data.icons['fire'].d }}">/></svg> News {#news}
 
 - [Apr. 2025] Our work on CT-Bound was featured in [Purdue News](https://www.purdue.edu/newsroom/2025/Q2/new-imaging-technologies-achieve-real-time-boundary-detection-single-shot-high-dynamic-range-imaging/). 
 - [Feb. 2025] Our paper *Blurry-Edges* was accepted at IEEE/CVF CVPR 2025. 
