@@ -3,7 +3,9 @@
    ========================================================================== */
 
 .icon-inline {
-  display: inline-block;
+  svg {
+    display: inline-block;
+  }
 }
 
 .icon {
