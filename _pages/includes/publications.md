@@ -1,4 +1,4 @@
-## <svg {% include icon_attr.html name="file-lines" %}><path d="{{ site.data.icons['file-lines'].path.d }}"/></svg> Publications {#publications}
+<h2 id="publications">{% include icon.html name="file-lines" %} Publications</h2>
 
 **A complete list of my publications is available on [Google Scholar](https://scholar.google.com/citations?user=Dc6Eq1cAAAAJ&hl=en)**.
 <div class="custom-divider"></div>

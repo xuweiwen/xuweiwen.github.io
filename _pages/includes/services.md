@@ -1,4 +1,4 @@
-## <svg {% include icon_attr.html name="gear" %}><path d="{{ site.data.icons['gear'].path.d }}"/></svg> Services {#services}
+<h2 id="services">{% include icon.html name="gear" %} Services</h2>
 
 - *TC Reviewer*, IEEE SPS Multimedia Signal Processing Technical Committee (MMSP TC), 2025 - Present
 - *Reviewer*, IEEE Transactions on Image Processing (TIP), 2025 - Present
