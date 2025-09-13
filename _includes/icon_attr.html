@@ -1,0 +1,10 @@
+{% assign icon = site.data.icons[include.name] %}
+
+{% for pair in site.data.icons.svg_attrs %}
+  {{ pair.first }}="{{ pair.last }}"
+{% endfor %}
+{% if icon.attrs %}
+  {% for pair in icon.attrs %}
+    {{ pair.first }}="{{ pair.last }}"
+  {% endfor %}
+{% endif %}

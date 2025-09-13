@@ -12,8 +12,8 @@
         <ul class="hidden-links hidden"></ul>
         <button id="theme-toggle" class="button--theme" aria-label="Toggle theme mode">
           <span class="icon-wrapper">
-            {% include icon.html name="moon" %}
-            {% include icon.html name="sun" %}
+            <svg {% include icon.html name="moon" %}><path d="{{ site.data.icons['moon'].d }}">/></svg>
+            <svg {% include icon.html name="sun" %}><path d="{{ site.data.icons['sun'].d }}">/></svg>
           </span>
         </button>
       </nav>
