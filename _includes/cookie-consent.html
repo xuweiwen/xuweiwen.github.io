@@ -28,7 +28,7 @@
   const loadGoogleAnalytics = () => {
     const script = document.createElement('script');
     script.async = true;
-    script.src = `https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics_id }}`;
+    script.src = 'https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics_id }}';
     document.head.appendChild(script);
 
     script.onload = () => {
