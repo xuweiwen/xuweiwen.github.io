@@ -11,8 +11,9 @@ function initThemeToggle() {
   const themeToggle = document.getElementById('theme-toggle');
   const moonIcon = document.getElementById('icon-moon');
   const sunIcon = document.getElementById('icon-sun');
+  if (!metaThemeColor || !themeToggle) return;
 
-  function setTheme(theme) {
+  const setTheme = (theme) => {
     const isLight = theme === 'light';
     document.documentElement.setAttribute('data-theme', theme);
     localStorage.setItem('theme', theme);
@@ -24,7 +25,7 @@ function initThemeToggle() {
     sunIcon.style.opacity = isLight ? 0 : 1;
 
     metaThemeColor.setAttribute('content', isLight ? '#ffffff' : '#000000');
-  }
+  };
   
   // Toggle theme on button click
   themeToggle.addEventListener('click', () => {
