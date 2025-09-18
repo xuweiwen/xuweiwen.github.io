@@ -33,7 +33,7 @@
 
     script.onload = () => {
       window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
+      const gtag = (...args) => dataLayer.push(args);
       gtag('js', new Date());
       gtag('config', '{{ site.google_analytics_id }}');
     };
