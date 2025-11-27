@@ -24,6 +24,7 @@
 
   .header {
     background-color: var(--link-color);
+    font-size: $type-size-6;
     border-radius: $border-radius;
     color: #fff;
     padding-left: 0.4em;
@@ -38,5 +39,12 @@
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.5s ease;
+    margin-bottom: $space-var;
+    ul {
+      margin-bottom: 0;
+      li:last-child {
+        margin-bottom: 0;
+      }
+    }
   }
 }
