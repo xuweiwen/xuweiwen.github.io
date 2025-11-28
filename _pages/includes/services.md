@@ -12,7 +12,7 @@
 <div id="overlay"></div>
 
 <div id="modal1" class="modal">
-  <h2 class="modal__title">Modal 1</h2>
+  <h4 class="modal__title">Modal 1</h4>
   <div class="modal__supporting-text">Content for modal 1</div>
   <div class="modal__actions">
     <button data-modal-close class="btn">Close</button>
@@ -20,7 +20,7 @@
 </div>
 
 <div id="modal2" class="modal">
-  <h2 class="modal__title">Modal 2</h2>
+  <h4 class="modal__title">Modal 2</h4>
   <div class="modal__supporting-text">Content for modal 2</div>
   <div class="modal__actions">
     <button data-modal-close class="btn">Close</button>
