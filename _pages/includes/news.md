@@ -5,7 +5,7 @@
 - [Aug. 2024] Our paper *CT-Bound* was accepted at IEEE MMSP 2024. 
 
 <div class="collapse">
-<div class="header">Archived</div>
+<button class="header">Archived</button>
 <div class="content" markdown="1">
 
 - [Mar. 2022] One paper was accepted at ASME IDETC-CIE 2022. 
