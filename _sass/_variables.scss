@@ -71,6 +71,9 @@ $info-color                 : #3f6188;
   --link-color                : #{$info-color};
   --link-color-hover          : #{darken($info-color, 15%)};
   --box-shadow                : 3px 3px 6px 0px #{$gray};
+  --btn-text-color            : #{$lighter-gray};
+  --btn-background-color      : #{$dark-gray};
+  --btn-background-color-hover: #{$darker-gray};
   --github-logo-color         : #24292f;
 }
 
@@ -83,6 +86,9 @@ $info-color                 : #3f6188;
   --background-color-emph     : #{$darker-gray};
   --link-color                : #{lighten($info-color, 22%)};
   --link-color-hover          : #{lighten($info-color, 37%)};
+  --btn-text-color            : #{$darker-gray};
+  --btn-background-color      : #{$light-gray};
+  --btn-background-color-hover: #{$lighter-gray};
   --github-logo-color         : #f0f6fc;
 }
 
