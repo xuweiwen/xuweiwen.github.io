@@ -1,6 +1,6 @@
 # [ProfilAcademique](https://github.com/xuweiwen/ProfilAcademique)
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-lightgrey.svg)](https://github.com/xuweiwen/ProfilAcademique/blob/master/LICENSE.txt) [![Built with Jekyll](https://img.shields.io/badge/Built%20with-Jekyll-55b8d3.svg)](https://jekyllrb.com/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-lightgrey.svg)](https://github.com/xuweiwen/ProfilAcademique/blob/master/LICENSE) [![Built with Jekyll](https://img.shields.io/badge/Built%20with-Jekyll-55b8d3.svg)](https://jekyllrb.com/)
 
 This is the source code for Wei Xu’s public academic website, [weixu.net](https://weixu.net), built with his template, [ProfilAcademique](https://github.com/xuweiwen/ProfilAcademique).
 
@@ -8,7 +8,7 @@ This is the source code for Wei Xu’s public academic website, [weixu.net](http
 
 The original license and acknowledgments of [ProfilAcademique](https://github.com/xuweiwen/ProfilAcademique) are included below.
 
-> This project is licensed under the MIT License. See [`LICENSE`](LICENSE.txt) for full details.
+> This project is licensed under the MIT License. See [`LICENSE`](LICENSE) for full details.
 > 
 > ### Third-party Components
 > 
