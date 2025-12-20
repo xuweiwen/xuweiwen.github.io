@@ -119,7 +119,6 @@ timezone: America/New_York # http://en.wikipedia.org/wiki/List_of_tz_database_ti
 plugins:
   - jekyll-sitemap
   - jekyll-gist
-  - jekyll-redirect-from
 
 
 # HTML Compression
