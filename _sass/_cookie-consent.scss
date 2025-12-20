@@ -25,14 +25,8 @@
   }
 
   button {
-    @include button-base;
-    background-color: #daaa00;
-    color: #fff;
+    @include button-base(#fff, #daaa00, #8e6f3e);
     padding: .5em .75em;
     margin: .5em 1em 0 1em;
-
-    &:hover {
-      background-color: #8e6f3e;
-    }
   }
 }
