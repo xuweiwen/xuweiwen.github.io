@@ -15,7 +15,7 @@
 
 MetaSpectra+: A Compact Broadband Metasurface Camera for Snapshot Hyperspectral+ Imaging<br>
 Yuxuan Liu\*, **Wei Xu**\*, Qi Guo<br>
-IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026<br>
+To appear in IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026<br>
 (\*Equal contribution)<br>
 
 </div>
