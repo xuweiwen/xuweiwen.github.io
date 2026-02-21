@@ -33,7 +33,7 @@ IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2025<br>
 
 [CT-Bound: Robust Boundary Detection from Noisy Images Via Hybrid Convolution and Transformer Neural Networks](https://ieeexplore.ieee.org/abstract/document/10743517)<br>
 **Wei Xu**, Junjie Luo, Qi Guo<br>
-IEEE 26th International Workshop on Multimedia Signal Processing (MMSP), 2024<br>
+IEEE International Workshop on Multimedia Signal Processing (MMSP), 2024<br>
 [[arXiv](https://arxiv.org/abs/2403.16494)] [[Code](https://github.com/guo-research-group/CT-Bound)]
 
 </div>
@@ -41,7 +41,7 @@ IEEE 26th International Workshop on Multimedia Signal Processing (MMSP), 2024<br
 
 - <span class="badge-text">IDETC-CIE 2022</span> [Design and Modeling of a New Variable Stiffness Robotic Finger Based on Reconfigurable Beam Property Change for Flexible Grasping](https://asmedigitalcollection.asme.org/IDETC-CIE/proceedings/IDETC-CIE2022/86281/V007T07A010/1150568)<br>
 **Wei Xu**, Jiaming Fu, Dongming Gan<br>
-International Design Engineering Technical Conferences & Computers and Information in Engineering Conference (IDETC-CIE), 2022
+ASME International Design Engineering Technical Conferences & Computers and Information in Engineering Conference (IDETC-CIE), 2022
 
 - <span class="badge-text">AAAI-FSS on AI-HRI 2021</span> [Natural Language for Human-Robot Collaboration: Problems Beyond Language Grounding](https://arxiv.org/abs/2110.04441)<br>
 Seth Pate, **Wei Xu**, Ziyi Yang, Maxwell Love, Siddarth Ganguri, Lawson L.S. Wong<br>
