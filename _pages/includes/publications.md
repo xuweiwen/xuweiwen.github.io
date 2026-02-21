@@ -43,6 +43,6 @@ IEEE International Workshop on Multimedia Signal Processing (MMSP), 2024<br>
 **Wei Xu**, Jiaming Fu, Dongming Gan<br>
 ASME International Design Engineering Technical Conferences & Computers and Information in Engineering Conference (IDETC-CIE), 2022
 
-- <span class="badge-text">AAAI-FSS on AI-HRI 2021</span> [Natural Language for Human-Robot Collaboration: Problems Beyond Language Grounding](https://arxiv.org/abs/2110.04441)<br>
+- <span class="badge-text">AI-HRI 2021</span> [Natural Language for Human-Robot Collaboration: Problems Beyond Language Grounding](https://arxiv.org/abs/2110.04441)<br>
 Seth Pate, **Wei Xu**, Ziyi Yang, Maxwell Love, Siddarth Ganguri, Lawson L.S. Wong<br>
-AAAI Fall Symposium on Artificial Intelligence for Human-Robot Interaction (AAAI-FSS on AI-HRI), 2021
+AAAI Fall Symposium on Artificial Intelligence for Human-Robot Interaction (AI-HRI), 2021
