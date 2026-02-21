@@ -3,6 +3,24 @@
 **A complete list of my publications is available on [Google Scholar](https://scholar.google.com/citations?user=Dc6Eq1cAAAAJ&hl=en)**.
 <div class="custom-divider"></div>
 
+<!-- MetaSpectra+ -->
+<div class="paper-box">
+<div class="paper-box-image">
+<div markdown="1">
+<div class="badge-image">CVPR 2026</div>
+![MetaSpectra+ cover]({{ "/images/publication-teaser/metaspectra+.png" | relative_url }})
+</div>
+</div>
+<div class="paper-box-text" markdown="1">
+
+MetaSpectra+: A Compact Broadband Metasurface Camera for Snapshot Hyperspectral+ Imaging<br>
+Yuxuan Liu*, Wei Xu*, Qi Guo<br>
+IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026<br>
+\* Equal contribution<br>
+
+</div>
+</div>
+
 <!-- Blurry-edges -->
 <div class="paper-box">
 <div class="paper-box-image">
