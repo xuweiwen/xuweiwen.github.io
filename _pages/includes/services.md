@@ -8,5 +8,7 @@
 - *Conference Reviewer*
   - IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)
   - IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
+- *Artifact Evaluation Committee Member*
+  - Conference on Machine Learning and Systems (MLSys)
 - *Student volunteer*
   - IEEE International Conference on Computational Photography (ICCP)
