@@ -6,6 +6,7 @@
 - *TC Reviewer*
   - IEEE SPS Multimedia Signal Processing Technical Committee (MMSP TC)
 - *Conference Reviewer*
+  - IEEE International Conference on Image Processing (ICIP)
   - IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)
   - IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
 - *Artifact Evaluation Committee Member*
