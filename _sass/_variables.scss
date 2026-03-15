@@ -50,6 +50,7 @@ $danger-color               : #ee5f5b;
 $info-color                 : #3f6188;
 
 :root {
+  --x-large                    : #{$x-large};
   --text-color                 : #{$dark-gray};
   --background-color           : #fff;
   --border-color               : #{$lighter-gray};

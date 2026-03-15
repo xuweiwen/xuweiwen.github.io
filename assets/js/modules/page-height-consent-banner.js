@@ -12,7 +12,6 @@ function initPageHeightAdj() {
   const remInPx = parseFloat(getComputedStyle(document.documentElement).fontSize);
   const xLarge = parseFloat(rootStyle.getPropertyValue('--x-large'));
   const baseOffset = 2 * remInPx;
-  // const widthThreshold = xLarge + 4.5 * remInPx;
   const bumpIt = () => {
     let buttonExtraWidth = 0;
     if (backToTop) {
@@ -23,6 +22,7 @@ function initPageHeightAdj() {
     }
     const widthThreshold = xLarge + 2 * buttonExtraWidth;
     const isNarrow = window.innerWidth < widthThreshold;
+    const isNarrower = window.innerWidth <= xLarge;
 
     if (banner && banner.style.display !== 'none') {
       const bannerHeight = banner.offsetHeight;
@@ -37,7 +37,7 @@ function initPageHeightAdj() {
       }
     }
     if (backToTop) {
-      backToTop.style.right = isNarrow ? '1rem' : '2rem';
+      backToTop.style.right = isNarrower ? 0.0025 * window.innerWidth : '2rem';
     }
   };
   if (banner) {
