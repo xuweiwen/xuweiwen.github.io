@@ -28,7 +28,11 @@ function initPageHeightAdj() {
       const bannerHeight = banner.offsetHeight;
       document.body.style.marginBottom = (bannerHeight + 0.3 * remInPx) + 'px';
       if (backToTop) {
-        backToTop.style.bottom = (bannerHeight + 0.3 * remInPx + baseOffset) + 'px';
+        if (isNarrow) {
+          backToTop.style.bottom = (bannerHeight + 0.3 * remInPx + baseOffset) + 'px';
+        } else {
+          backToTop.style.bottom = baseOffset + 'px';
+        }
       }
     } else {
       document.body.style.marginBottom = '0';
