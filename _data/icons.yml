@@ -7,7 +7,7 @@ triangle:
   attrs:
     viewBox: "0 0 24 24"
   content: |
-    <polygon points="12,7 7,15 17,15"/>
+    <polygon points="12,7 6,17 18,17"/>
 
 location-pin:
   attrs:

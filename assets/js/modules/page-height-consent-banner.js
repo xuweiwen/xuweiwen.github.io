@@ -8,6 +8,7 @@
 function initPageHeightAdj() {
   const banner = document.getElementById('cookie-consent-banner');
   const backToTop = document.getElementById('back-to-top');
+  const rootStyle = getComputedStyle(document.documentElement);
   const remInPx = parseFloat(getComputedStyle(document.documentElement).fontSize);
   const xLarge = parseFloat(rootStyle.getPropertyValue('--x-large'));
   const baseOffset = 2 * remInPx;
