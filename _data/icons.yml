@@ -3,6 +3,12 @@ svg_attrs:
   class: "icon icon-fw"
   aria-hidden: "true"
 
+triangle:
+  attrs:
+    viewBox: "0 0 24 24"
+  content: |
+    <polygon points="12,7 7,15 17,15"/>
+
 location-pin:
   attrs:
     viewBox: "0 0 384 512"

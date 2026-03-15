@@ -7,13 +7,36 @@
 
 function initPageHeightAdj() {
   const banner = document.getElementById('cookie-consent-banner');
+  const backToTop = document.getElementById('back-to-top');
   const remInPx = parseFloat(getComputedStyle(document.documentElement).fontSize);
+  const xLarge = parseFloat(rootStyle.getPropertyValue('--x-large'));
+  const baseOffset = 2 * remInPx;
+  // const widthThreshold = xLarge + 4.5 * remInPx;
   const bumpIt = () => {
+    let buttonExtraWidth = 0;
+    if (backToTop) {
+      const btnStyle = getComputedStyle(backToTop);
+      const btnWidth = parseFloat(btnStyle.width);
+      const btnRight = parseFloat(btnStyle.right);
+      buttonExtraWidth = btnWidth + btnRight;
+    }
+    const widthThreshold = xLarge + 2 * buttonExtraWidth;
+    const isNarrow = window.innerWidth < widthThreshold;
+
     if (banner && banner.style.display !== 'none') {
       const bannerHeight = banner.offsetHeight;
       document.body.style.marginBottom = (bannerHeight + 0.3 * remInPx) + 'px';
+      if (backToTop) {
+        backToTop.style.bottom = (bannerHeight + 0.3 * remInPx + baseOffset) + 'px';
+      }
     } else {
       document.body.style.marginBottom = '0';
+      if (backToTop) {
+        backToTop.style.bottom = baseOffset + 'px';
+      }
+    }
+    if (backToTop) {
+      backToTop.style.right = isNarrow ? '1rem' : '2rem';
     }
   };
   if (banner) {
