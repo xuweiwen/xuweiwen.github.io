@@ -34,6 +34,25 @@ $type-size-7                : 0.79em; // 11.852px
 $type-size-8                : 0.702em; // 10.535px
 
 /*
+   Breakpoints
+   ========================================================================== */
+
+$small                      : 600px !default;
+$medium                     : 768px !default;
+$medium-wide                : 900px !default;
+$large                      : 925px !default;
+$x-large                    : 1280px !default;
+
+/*
+   Grid
+   ========================================================================== */
+
+$number-of-columns          : 48;
+$number-of-columns-page     : 37;
+$number-of-columns-sidebar  : 9;
+$grid-gap                   : 1rem;
+
+/*
    Colors
    ========================================================================== */
 
@@ -81,25 +100,6 @@ $info-color                 : #3f6188;
   --btn-background-color-hover : #{$lighter-gray};
   --github-logo-color          : #f0f6fc;
 }
-
-/*
-   Breakpoints
-   ========================================================================== */
-
-$small                      : 600px !default;
-$medium                     : 768px !default;
-$medium-wide                : 900px !default;
-$large                      : 925px !default;
-$x-large                    : 1280px !default;
-
-/*
-   Grid
-   ========================================================================== */
-
-$number-of-columns          : 48;
-$number-of-columns-page     : 37;
-$number-of-columns-sidebar  : 9;
-$grid-gap                   : 1rem;
 
 /*
    Other
