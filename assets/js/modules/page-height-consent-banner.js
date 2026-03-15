@@ -18,7 +18,7 @@ function initPageHeightAdj() {
       const btnStyle = getComputedStyle(backToTop);
       const btnWidth = parseFloat(btnStyle.width);
       const btnRight = parseFloat(btnStyle.right);
-      buttonExtraWidth = btnWidth + btnRight;
+      buttonExtraWidth = btnWidth + btnRight + 0.3 * remInPx;
     }
     const widthThreshold = xLarge + 2 * buttonExtraWidth;
     const isNarrow = window.innerWidth < widthThreshold;
