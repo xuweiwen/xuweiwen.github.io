@@ -323,6 +323,7 @@ a.reversefootnote {
   justify-content: center;
 
   border-radius: $border-radius;
+  border: 1px solid var(--text-color);
   background: color-mix(in srgb, var(--background-color) 50%, transparent);
   box-shadow: var(--box-shadow);
   color: var(--text-color);
