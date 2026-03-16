@@ -12,7 +12,7 @@ url                      : "https://www.weixu.net"
 baseurl                  : ""
 
 # google analytics
-google_analytics_id      : #G-KH06XZ56S6 # get google_analytics_id from https://analytics.google.com/analytics/
+google_analytics_id      : G-KH06XZ56S6 # get google_analytics_id from https://analytics.google.com/analytics/
 
 # SEO Related
 google_site_verification : d2Zb8JvugzYwi2Bp27ifSlK6hYVbEqo1rMcatkb4T_k # get google_site_verification from https://search.google.com/search-console/about
