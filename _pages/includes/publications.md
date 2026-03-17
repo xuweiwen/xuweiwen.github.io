@@ -13,11 +13,11 @@
 </div>
 <div class="paper-box-text" markdown="1">
 
-MetaSpectra+: A Compact Broadband Metasurface Camera for Snapshot Hyperspectral+ Imaging<br>
+[MetaSpectra+: A Compact Broadband Metasurface Camera for Snapshot Hyperspectral+ Imaging](https://arxiv.org/abs/2603.09116)<br>
 Yuxuan Liu\*, **Wei Xu**\*, Qi Guo<br>
 To appear in IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026<br>
 (\*Equal contribution)<br>
-[[Project page](https://meta-imaging.qiguo.org/)] [[Code](https://github.com/guo-research-group/MetaSpectra-plus)]
+[[Project page](https://meta-imaging.qiguo.org/)] [[arXiv](https://arxiv.org/abs/2603.09116)] [[Code](https://github.com/guo-research-group/MetaSpectra-plus)]
 
 </div>
 </div>
