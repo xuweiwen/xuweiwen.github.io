@@ -8,7 +8,7 @@
   **Boiler Up!**
 
   </div>
-- M.S. in Robotics (Concentration in Computer Science), <a href="#" class="show-notice-link" data-target="Northeastern" data-display-style="flex" style="color: var(--text-color); text-decoration-color: #bb4100;">Northeastern University</a>, 2019&ndash;2021
+- M.S. in Robotics (Computer Science Concentration), <a href="#" class="show-notice-link" data-target="Northeastern" data-display-style="flex" style="color: var(--text-color); text-decoration-color: #bb4100;">Northeastern University</a>, 2019&ndash;2021
   <div id="Northeastern" class="notice--info univertisy_logo_motto" markdown="1" style="background-color: #ffaf80;">
 
   ![Northeastern logo]({{ "/images/university-logos/neu.svg" | relative_url }})
