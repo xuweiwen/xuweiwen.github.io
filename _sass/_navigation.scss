@@ -134,13 +134,14 @@
       content: "";
       position: absolute;
       top: -8px;
-      right: 39px;
+      right: 38px;
       width: 16px;
       height: 16px;
       background-color: inherit;
       transform: rotate(45deg);
       border-left: 1px solid var(--border-color);
       border-top: 1px solid var(--border-color);
+      clip-path: polygon(0% 0%, 100% 0%, 0% 100%);
     }
 
     li {
