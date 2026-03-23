@@ -117,8 +117,7 @@
     padding: 5px;
     border: 1px solid var(--border-color);
     border-radius: $border-radius;
-    background-color: color-mix(in srgb, var(--background-color) 80%, transparent);
-    backdrop-filter: var(--glass-effect);
+    background-color: var(--background-color);
     box-shadow: var(--box-shadow);
 
     a {
@@ -134,12 +133,11 @@
     &::before {
       content: "";
       position: absolute;
-      top: -6px;
-      right: 36px;
-      width: 12px;
-      height: 12px;
-      background-color: color-mix(in srgb, var(--background-color) 80%, transparent);
-      backdrop-filter: var(--glass-effect);
+      top: -8px;
+      right: 39px;
+      width: 16px;
+      height: 16px;
+      background-color: inherit;
       transform: rotate(45deg);
       border-left: 1px solid var(--border-color);
       border-top: 1px solid var(--border-color);
