@@ -4,9 +4,9 @@
 
 @keyframes intro {
   from {
-    filter: blur(16px);
+    clip-path: inset(0 0 100% 0);
   }
   to {
-    filter: blur(0);
+    clip-path: inset(0);
   }
 }
