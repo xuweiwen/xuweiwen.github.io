@@ -14,6 +14,7 @@ function initModals() {
     btn.addEventListener('click', () => {
       const modalId = btn.dataset.modalOpen;
       const modal = document.getElementById(modalId);
+      if (!modal) return;
       modal.classList.add('active');
       body.classList.add('show-modal');
     });
