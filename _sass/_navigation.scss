@@ -15,7 +15,6 @@
     margin-right: 2rem;
     padding: 0.5rem 0;
     color: var(--masthead-link-color);
-    text-decoration: none;
 
     &:hover {
       color: var(--masthead-link-color-hover);
@@ -111,7 +110,7 @@
 
 .hidden-links {
   position: fixed;
-  top: 36px;
+  top: 56px;
   right: 21px;
   margin-top: 15px;
   border: 1px solid var(--border-color);
@@ -122,8 +121,11 @@
   z-index: 30;
 
   a {
+    display: block;
+    color: var(--masthead-link-color);
     margin: 0;
     padding: 10px 20px;
+    text-decoration: none;
 
     &:hover {
       color: var(--masthead-link-color-hover);
@@ -144,6 +146,16 @@
     border-left: 1px solid var(--border-color);
     border-top: 1px solid var(--border-color);
     clip-path: polygon(0% 0%, 100% 0%, 0% 100%);
+  }
+
+  ul > li,
+  ol > li {
+    margin-bottom: 0;
+  }
+
+  li > ul,
+  li > ol {
+    margin-top: 0;
   }
 
   li {
