@@ -8,74 +8,78 @@
 function initResponsiveNav() {
   const nav = document.getElementById('site-nav');
   if (!nav) return;
-  const btntheme = nav.querySelector('#theme-toggle');
-  const btn = nav.querySelector('#dropdown-menu');
-  const vlinks = nav.querySelector('.visible-links');
-  if (!btntheme || !btn || !vlinks) return;
-  const hlinks = document.getElementById('hidden-links');
-  if (!hlinks) return;
+  const btnTheme = nav.querySelector('#theme-toggle');
+  const btnDropdown = nav.querySelector('#dropdown-menu');
+  const homeItem = nav.querySelector('.home-item');
+  const navLinks = nav.querySelector('.nav-links');
+  const dropdownOverlay = document.getElementById('dropdown-overlay');
+  if (!btnTheme || !btnDropdown || !navLinks || !dropdownOverlay) return;
+  const rootStyle = getComputedStyle(document.documentElement);
+  const remInPx = parseFloat(rootStyle.fontSize);
 
-  let breaks = [];
+  const measure = () => {
+    return {
+      linkOrgWidth: navLinks.offsetWidth,
+      homeWidth: homeItem.offsetWidth,
+      themeWidth: btnTheme.offsetWidth
+    };
+  };
+
+  const { linkOrgWidth, homeWidth, btnThemeWidth } = measure();
+
   let isMenuOpen = false;
+  let wideScreen = true;
 
-  // Utility functions for class handling
-  const hasClass = (el, cls) => el.classList.contains(cls);
-  const addClass = (el, cls) => el.classList.add(cls);
-  const removeClass = (el, cls) => el.classList.remove(cls);
-  const toggleClass = (el, cls) => el.classList.toggle(cls);
+  const updateMenuState = () => {
+    if (isMenuOpen) {
+      navLinks.classList.remove('hidden');
+      dropdownOverlay.style.maxHeight = navLinks.offsetHeight + 'px';
+    } else {
+      navLinks.classList.add('hidden');
+      dropdownOverlay.style.maxHeight = '0';
+    }
+  };
 
   const updateNav = () => {
-    const btnHidden = hasClass(btn, 'hidden');
-    const availableSpace = btnHidden
-      ? nav.offsetWidth - btntheme.offsetWidth
-      : nav.offsetWidth - btntheme.offsetWidth - btn.offsetWidth - 30;
+    const mastheadHeight = nav.offsetHeight + remInPx;
+    dropdownOverlay.style.top = mastheadHeight + 'px';
+    const availableLR = (nav.offsetWidth - linkOrgWidth) / 2 - 2 * remInPx;
+    wideScreen = availableLR >= homeWidth && availableLR >= btnThemeWidth;
 
-    // Move items to hidden if overflowing
-    while (vlinks.offsetWidth > availableSpace && vlinks.lastElementChild) {
-      breaks.push(vlinks.offsetWidth);
-      hlinks.insertBefore(vlinks.lastElementChild, hlinks.firstChild);
-      removeClass(btn, 'hidden'); // show button if not enough space
+    if (wideScreen) {
+      btnDropdown.classList.add('hidden');
+      dropdownOverlay.classList.add('hidden');
+      homeItem.classList.remove('hidden');
+      navLinks.classList.remove('dropdown');
+      navLinks.classList.remove('hidden');
+    } else {
+      btnDropdown.classList.remove('hidden');
+      dropdownOverlay.classList.remove('hidden');
+      homeItem.classList.add('hidden');
+      navLinks.classList.add('dropdown');
+      updateMenuState();
     }
-
-    // Move items back to visible if there's room
-    while (
-      breaks.length &&
-      availableSpace > breaks[breaks.length - 1] &&
-      hlinks.firstElementChild
-    ) {
-      vlinks.appendChild(hlinks.firstElementChild);
-      breaks.pop();
-    }
-
-    // Hide dropdown button if no hidden items
-    if (!breaks.length) {
-      addClass(btn, 'hidden');
-      addClass(hlinks, 'hidden');
-    }
-
-    btn.setAttribute('data-count', breaks.length);
   };
 
   const toggleMenu = () => {
-    toggleClass(hlinks, 'hidden');
-    toggleClass(btn, 'close');
-    isMenuOpen = !hasClass(hlinks, 'hidden');
+    btnDropdown.classList.toggle('close');
+    isMenuOpen = btnDropdown.classList.contains('close');
+    updateMenuState();
   };
 
   const closeMenu = () => {
-    if (isMenuOpen) {
-      addClass(hlinks, 'hidden');
-      removeClass(btn, 'close');
+    if (isMenuOpen && !wideScreen) {
+      navLinks.classList.add('hidden');
+      btnDropdown.classList.remove('close');
+      dropdownOverlay.style.maxHeight = '0';
       isMenuOpen = false;
     }
   };
 
-  // Event listeners
   window.addEventListener('resize', updateNav);
   window.addEventListener('scroll', closeMenu);
-  btn.addEventListener('click', toggleMenu);
+  btnDropdown.addEventListener('click', toggleMenu);
 
-  // Initial run
   updateNav();
 }
 
