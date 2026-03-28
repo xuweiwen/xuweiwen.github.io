@@ -21,7 +21,7 @@ function initResponsiveNav() {
     return {
       linkOrgWidth: navLinks.offsetWidth,
       homeWidth: homeItem.offsetWidth,
-      themeWidth: btnTheme.offsetWidth
+      btnThemeWidth: btnTheme.offsetWidth
     };
   };
 
