@@ -35,7 +35,7 @@
     cursor: pointer;
   }
 
-  .button-dropdown {
+  .button--dropdown {
     position: absolute;
     height: 80%;
     top: 50%;
@@ -45,7 +45,7 @@
     padding: 0 0.5rem;
   }
 
-  .button-theme {
+  .button--theme {
     position: relative;
     height: $type-size-1;
     width: $type-size-1;
