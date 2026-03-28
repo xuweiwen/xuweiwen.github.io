@@ -1,13 +1,7 @@
 /*!
- * This project is a derivative work of the jQuery plugin Greedy Navigation,
- * originally developed by Luke Jackson (https://github.com/lukejacksonn/GreedyNav).
- *
- * The present implementation has been rewritten entirely in native JavaScript,
- * following the logic and structure of the original version.
- *
  * Copyright (c) 2025-Present Wei Xu
  * ProfilAcademique: https://github.com/xuweiwen/ProfilAcademique
- * Modifications licensed under the MIT License.
+ * Licensed under the MIT License.
  * See LICENSE file for full license text.
  */
 
