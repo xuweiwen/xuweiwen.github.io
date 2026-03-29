@@ -107,7 +107,7 @@
         bottom: 2px;
         height: 4px;
         background-color: var(--masthead-link-color-hover);
-        width: 100%;
+        width: calc(100% - 0.4rem);
         transition: $global-transition;
         transform: scaleX(0);
       }
