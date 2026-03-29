@@ -66,14 +66,9 @@
         transform: translate(-50%, -50%);
         height: 100%;
         width: 100%;
-        transition: opacity 0.3s ease;
+        transition: $global-transition;
         color: var(--masthead-link-color);
-        opacity: 0;
         pointer-events: none;
-        &.visible {
-          opacity: 1;
-          pointer-events: auto;
-        }
       }
     }
   }
@@ -131,6 +126,5 @@
   overflow: hidden;
   background-color: color-mix(in srgb, var(--background-color) var(--color-mix-percentage), transparent);
   backdrop-filter: var(--glass-effect);
-  transition: max-height 0.1s ease;
   z-index: 15;
 }
