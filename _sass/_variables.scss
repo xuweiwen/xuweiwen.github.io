@@ -69,6 +69,7 @@ $danger-color               : #ee5f5b;
 $info-color                 : #3f6188;
 
 :root {
+  --large                      : #{$large};
   --x-large                    : #{$x-large};
   --text-color                 : #{$dark-gray};
   --background-color           : #fff;
