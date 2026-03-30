@@ -20,7 +20,7 @@ function initPageHeightAdj() {
     const btnRight = parseFloat(btnStyle.right);
     const btnBottom = parseFloat(btnStyle.bottom);
     baseOffset = btnBottom;
-    buttonExtraWidth = btnWidth + btnRight + remInPx;
+    buttonExtraWidth = btnWidth + btnRight;
   }
   const bumpIt = () => {
     const windowInnerWidth = window.innerWidth;
