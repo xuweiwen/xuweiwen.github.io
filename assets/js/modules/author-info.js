@@ -7,9 +7,10 @@
 
 function initAuthorInfo() {
   const authorUrls = document.querySelector('.author__urls');
+  const largeSize = parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--large'));
   const stickySideBar = () => {
     const button = document.querySelector('.author__urls-wrapper button');
-    const show = button === null ? window.innerWidth > 925 : !button.offsetParent;
+    const show = button === null ? window.innerWidth > largeSize : !button.offsetParent;
     
     if (authorUrls) {
       authorUrls.style.display = show ? 'block' : 'none';
