@@ -1,11 +1,11 @@
 <div class="masthead">
   <div class="masthead__inner">
     <nav id="site-nav" class="nav-bar">
-      <div class="home-item hidden">
+      <div class="home-item">
         <a href="{{ '/' | relative_url }}">Homepage</a>
       </div>
-      <button id="dropdown-menu" class="button--dropdown hidden" aria-label="Dropdown menu"><span class="navicon"></span></button>
-      <ul class="nav-links hidden">
+      <button id="dropdown-menu" class="button--dropdown" aria-label="Dropdown menu"><span class="navicon"></span></button>
+      <ul class="nav-links">
         {% for link in site.data.navigation.main %}
           <li><a href="{{ link.url | relative_url }}">{{ link.title }}</a></li>
         {% endfor %}
