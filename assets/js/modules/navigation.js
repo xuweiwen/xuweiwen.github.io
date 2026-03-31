@@ -67,7 +67,7 @@ function initResponsiveNav() {
   };
 
   window.addEventListener('resize', throttle(updateNav, 50));
-  window.addEventListener('scroll', closeMenu);
+  window.addEventListener('scroll', throttle(closeMenu, 50));
   btnDropdown.addEventListener('click', toggleMenu);
   navLinks.addEventListener('click', (e) => {
     const link = e.target.closest('a');
