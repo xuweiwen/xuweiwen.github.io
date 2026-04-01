@@ -42,7 +42,7 @@
   #about-me{
     margin-top: -27.5rem !important;
     @include breakpoint($large) {
-      margin-top: -1px;
+      margin-top: -1px !important;
     }
   }
   
