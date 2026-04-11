@@ -91,7 +91,7 @@ $highlight-text-color-dark  : #ff6b6b;
   --btn-text-color             : #fff;
   --btn-background-color       : #{$dark-gray};
   --btn-background-color-hover : #{$darker-gray};
-  --github-logo-color          : #24292f;
+  --github-logo-color          : #000;
 }
 
 [data-theme="dark"] {
@@ -110,7 +110,7 @@ $highlight-text-color-dark  : #ff6b6b;
   --btn-text-color             : #000;
   --btn-background-color       : #{$light-gray};
   --btn-background-color-hover : #{$lighter-gray};
-  --github-logo-color          : #f0f6fc;
+  --github-logo-color          : #fff;
 }
 
 .button--theme #icon-moon { opacity: 1; }
