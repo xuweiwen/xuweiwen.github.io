@@ -27,11 +27,11 @@ author:
   bio              : "ECE Ph.D. candidate at Purdue"
   location         : "West Lafayette, IN"
   employer         :
-  googlescholar    : "Dc6Eq1cAAAAJ" # e.g., "Google Scholar ID"
-  email            : "weixu@purdue.edu"
   uri              :
-  github           : "xuweiwen" # e.g., "GitHub username"
+  email            : "weixu@purdue.edu"
   linkedin         : "weiwx" # e.g., "LinkedIn username"
+  github           : "xuweiwen" # e.g., "GitHub username"
+  googlescholar    : "Dc6Eq1cAAAAJ" # e.g., "Google Scholar ID"
 
 # Reading Files
 include:
@@ -71,7 +71,6 @@ keep_files:
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
-
 # Conversion
 markdown: kramdown
 highlighter: rouge
@@ -81,7 +80,6 @@ highlighter: rouge
 #   theme: github # uncomment this if use github theme
 excerpt_separator: "\n\n"
 incremental: false
-
 
 # Markdown Processing
 kramdown:
@@ -103,23 +101,19 @@ defaults:
       layout: default
       author_profile: true
 
-
 # Sass/SCSS
 sass:
   sass_dir: _sass
   style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
-
 # Outputting
 permalink: /:categories/:title/
 timezone: America/New_York # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
 
 # Plugins
 plugins:
   - jekyll-sitemap
   - jekyll-gist
-
 
 # HTML Compression
 # - http://jch.penibelst.de/
