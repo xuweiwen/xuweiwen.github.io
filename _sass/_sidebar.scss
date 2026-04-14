@@ -62,6 +62,7 @@
 .author__name {
   margin-top: 1rem;
   font-size: $type-size-3;
+  transition: none;
   @include breakpoint($medium) {
     font-size: $type-size-2;
   }
@@ -69,6 +70,7 @@
 
 .author__bio {
   margin: 0;
+  transition: none;
   @include breakpoint($large) {
     margin-top: 0.3rem;
     margin-bottom: 1rem;
@@ -99,6 +101,7 @@
       color: inherit;
       span {
         display: none;
+        transition: none;
       }
     }
   }
@@ -110,7 +113,7 @@
     text-align: left;
     #author-location,
     #author-employer {
-      display: unset;
+      display: list-item;
     }
     li {
       display: list-item;

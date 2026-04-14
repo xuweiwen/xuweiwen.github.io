@@ -16,10 +16,10 @@
   <div class="author__urls-wrapper">
     <ul class="author__urls social-icons">
       {% if author.location %}
-        <li id="author-location">{% include icon.html name="location-pin" %} {{ author.location }}</li>
+        <li id="author-location" aria-label="Location">{% include icon.html name="location-pin" %} {{ author.location }}</li>
       {% endif %}
       {% if author.employer %}
-        <li id="author-employer">{% include icon.html name="building" %} {{ author.employer }}</li>
+        <li id="author-employer" aria-label="Employer">{% include icon.html name="building" %} {{ author.employer }}</li>
       {% endif %}
       {% if author.uri %}
         <li><a href="{{ author.uri }}" aria-label="URL">{% include icon.html name="link" %} <span>Website</span></a></li>
