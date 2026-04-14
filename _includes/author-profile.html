@@ -13,38 +13,36 @@
     {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
   </div>
 
-  <div class="author__urls-wrapper">
-    <ul class="author__urls social-icons">
-      {% if author.location %}
-        <li id="author-location" aria-label="Location">{% include icon.html name="location-pin" %} {{ author.location }}</li>
-      {% endif %}
-      {% if author.employer %}
-        <li id="author-employer" aria-label="Employer">{% include icon.html name="building" %} {{ author.employer }}</li>
-      {% endif %}
-      {% if author.uri %}
-        <li><a href="{{ author.uri }}" aria-label="URL">{% include icon.html name="link" %} <span>Website</span></a></li>
-      {% endif %}
-      {% if author.email %}
-        <li>
-          <script>
-            const email = "{{ author.email }}";
-            const [user, domain] = email.split("@");
-            const fullEmail = `${user} [at] ${domain}`;
-            document.write(
-              `<a href="mailto:{{ author.email }}" aria-label="Email">{% include icon.html name="envelope" %} <span>${fullEmail}</span></a>`
-            );
-          </script>
-        </li>
-      {% endif %}
-      {% if author.linkedin %}
-        <li><a href="https://linkedin.com/in/{{ author.linkedin }}" aria-label="LinkedIn">{% include icon.html name="linkedin" %} <span>LinkedIn</span></a></li>
-      {% endif %}
-      {% if author.github %}
-        <li><a href="https://github.com/{{ author.github }}" aria-label="GitHub">{% include icon.html name="github" %} <span>GitHub</span></a></li>
-      {% endif %}
-      {% if author.googlescholar %}
-        <li><a href="https://scholar.google.com/citations?user={{ author.googlescholar }}&hl=en" aria-label="Google Scholar">{% include icon.html name="googlescholar" %} <span>Google Scholar</span></a></li>
-      {% endif %}
-    </ul>
-  </div>
+  <ul class="author__urls social-icons">
+    {% if author.location %}
+      <li id="author-location" aria-label="Location">{% include icon.html name="location-pin" %} {{ author.location }}</li>
+    {% endif %}
+    {% if author.employer %}
+      <li id="author-employer" aria-label="Employer">{% include icon.html name="building" %} {{ author.employer }}</li>
+    {% endif %}
+    {% if author.uri %}
+      <li><a href="{{ author.uri }}" aria-label="URL">{% include icon.html name="link" %} <span>Website</span></a></li>
+    {% endif %}
+    {% if author.email %}
+      <li>
+        <script>
+          const email = "{{ author.email }}";
+          const [user, domain] = email.split("@");
+          const fullEmail = `${user} [at] ${domain}`;
+          document.write(
+            `<a href="mailto:{{ author.email }}" aria-label="Email">{% include icon.html name="envelope" %} <span>${fullEmail}</span></a>`
+          );
+        </script>
+      </li>
+    {% endif %}
+    {% if author.linkedin %}
+      <li><a href="https://linkedin.com/in/{{ author.linkedin }}" aria-label="LinkedIn">{% include icon.html name="linkedin" %} <span>LinkedIn</span></a></li>
+    {% endif %}
+    {% if author.github %}
+      <li><a href="https://github.com/{{ author.github }}" aria-label="GitHub">{% include icon.html name="github" %} <span>GitHub</span></a></li>
+    {% endif %}
+    {% if author.googlescholar %}
+      <li><a href="https://scholar.google.com/citations?user={{ author.googlescholar }}&hl=en" aria-label="Google Scholar">{% include icon.html name="googlescholar" %} <span>Google Scholar</span></a></li>
+    {% endif %}
+  </ul>
 </div>
