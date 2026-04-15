@@ -24,16 +24,7 @@
       <li><a href="{{ author.uri }}" aria-label="URL">{% include icon.html name="link" %} <span>Website</span></a></li>
     {% endif %}
     {% if author.email %}
-      <li>
-        <script>
-          const email = "{{ author.email }}";
-          const [user, domain] = email.split("@");
-          const fullEmail = `${user} [at] ${domain}`;
-          document.write(
-            `<a href="mailto:{{ author.email }}" aria-label="Email">{% include icon.html name="envelope" %} <span>${fullEmail}</span></a>`
-          );
-        </script>
-      </li>
+      <li><a id="email-link" aria-label="Email" data-email="{{ author.email }}">{% include icon.html name="envelope" %} <span id="email-text"></span></a></li>
     {% endif %}
     {% if author.linkedin %}
       <li><a href="https://linkedin.com/in/{{ author.linkedin }}" aria-label="LinkedIn">{% include icon.html name="linkedin" %} <span>LinkedIn</span></a></li>
