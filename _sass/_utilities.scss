@@ -329,6 +329,7 @@ a.reversefootnote {
   color: var(--text-color);
   text-decoration: none;
   font-size: $type-size-5;
+  outline: none;
 
   z-index: 9400;
   transition: $global-transition;
@@ -337,5 +338,8 @@ a.reversefootnote {
 
   &:hover {
     background-color: color-mix(in srgb, var(--background-color) var(--color-mix-percentage), transparent);
+  }
+  &:focus-visible {
+    @include tab-focus;
   }
 }
