@@ -1,6 +1,7 @@
 <h2 id="services">{% include icon.html name="gear" %} Services</h2>
 
 - *Journal Reviewer*
+  - IEEE Transactions on Computational Imaging (TCI)
   - IEEE Open Journal of Signal Processing (OJSP)
   - IEEE Transactions on Image Processing (TIP)
 - *TC Reviewer*
