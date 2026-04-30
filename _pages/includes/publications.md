@@ -43,7 +43,7 @@ IEEE International Conference on Image Processing (ICIP), 2026<br>
 <div class="paper-box">
 <div class="paper-box-image">
 <div markdown="1">
-<div class="badge-image--hightlight">CVPR 2026</div>
+<div class="badge-image badge-image--highlight">CVPR 2026</div>
 ![MetaSpectra+ cover]({{ "/images/publication-teaser/metaspectra+.png" | relative_url }})
 </div>
 </div>
@@ -62,7 +62,7 @@ IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026 <spa
 <div class="paper-box">
 <div class="paper-box-image">
 <div markdown="1">
-<div class="badge-image--hightlight">CVPR 2025</div>
+<div class="badge-image badge-image--highlight">CVPR 2025</div>
 ![Blurry-Edges cover]({{ "/images/publication-teaser/blurry-edges.png" | relative_url }})
 </div>
 </div>
