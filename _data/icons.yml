@@ -1,6 +1,6 @@
 svg_attrs:
   xmlns: "http://www.w3.org/2000/svg"
-  class: "icon icon-fw"
+  class: "icon icon--fw"
   aria-hidden: "true"
 
 triangle:

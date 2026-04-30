@@ -3,15 +3,15 @@
    ========================================================================== */
 
 .icon {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
   height: 1em;
   width: auto;
   vertical-align: -0.125em;
   fill: currentColor;
-}
 
-.icon-fw {
-  width: 1em * $icon-fixed-width-multiplier;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
+  &--fw {
+    width: $icon-fixed-width;
+  }
 }
