@@ -13,7 +13,7 @@
 </div>
 <div class="paper-box-text" markdown="1">
 
-Non-Learning Low-light Stereo Vision<br>
+**Non-Learning Low-light Stereo Vision**<br>
 Jason Wang\*, Lucas Nguyen\*, Hyunseung Eom\*, **Wei Xu**, Qi Guo<br>
 IEEE International Conference on Image Processing (ICIP), 2026<br>
 (\*Equal contribution)
@@ -31,7 +31,7 @@ IEEE International Conference on Image Processing (ICIP), 2026<br>
 </div>
 <div class="paper-box-text" markdown="1">
 
-[Direct Kernel Optimization: Efficient Design for Opto-Electronic Convolutional Neural Networks](https://arxiv.org/abs/2511.02065)<br>
+[**Direct Kernel Optimization: Efficient Design for Opto-Electronic Convolutional Neural Networks**](https://arxiv.org/abs/2511.02065)<br>
 Ali Almuallem, Harshana Weligampola, Abhiram Gnanasambandam, **Wei Xu**, Dilshan Godaliyadda, Hamid R. Sheikh, Stanley H. Chan, Qi Guo<br>
 IEEE International Conference on Image Processing (ICIP), 2026<br>
 [[arXiv](https://arxiv.org/abs/2511.02065)]
@@ -49,7 +49,7 @@ IEEE International Conference on Image Processing (ICIP), 2026<br>
 </div>
 <div class="paper-box-text" markdown="1">
 
-[MetaSpectra+: A Compact Broadband Metasurface Camera for Snapshot Hyperspectral+ Imaging](https://arxiv.org/abs/2603.09116)<br>
+[**MetaSpectra+: A Compact Broadband Metasurface Camera for Snapshot Hyperspectral+ Imaging**](https://arxiv.org/abs/2603.09116)<br>
 Yuxuan Liu\*, **Wei Xu**\*, Qi Guo<br>
 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026 <span class="highlight-text">(Oral)</span><br>
 (\*Equal contribution)<br>
@@ -68,7 +68,7 @@ IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026 <spa
 </div>
 <div class="paper-box-text" markdown="1">
 
-[Blurry-Edges: Photon-Limited Depth Estimation from Defocused Boundaries](https://ieeexplore.ieee.org/document/11094281)<br>
+[**Blurry-Edges: Photon-Limited Depth Estimation from Defocused Boundaries**](https://ieeexplore.ieee.org/document/11094281)<br>
 **Wei Xu**, Charles James Wagner, Junjie Luo, Qi Guo<br>
 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2025<br>
 [[Project page](https://blurry-edges.qiguo.org/)] [[arXiv](https://arxiv.org/abs/2503.23606)] [[Code](https://github.com/guo-research-group/Blurry-Edges)] [[Video](https://youtu.be/ZUqNXTuO0u8)]
@@ -86,7 +86,7 @@ IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2025<br>
 </div>
 <div class="paper-box-text" markdown="1">
 
-[CT-Bound: Robust Boundary Detection from Noisy Images Via Hybrid Convolution and Transformer Neural Networks](https://ieeexplore.ieee.org/abstract/document/10743517)<br>
+[**CT-Bound: Robust Boundary Detection from Noisy Images Via Hybrid Convolution and Transformer Neural Networks**](https://ieeexplore.ieee.org/abstract/document/10743517)<br>
 **Wei Xu**, Junjie Luo, Qi Guo<br>
 IEEE International Workshop on Multimedia Signal Processing (MMSP), 2024<br>
 [[arXiv](https://arxiv.org/abs/2403.16494)] [[Code](https://github.com/guo-research-group/CT-Bound)]
@@ -94,10 +94,10 @@ IEEE International Workshop on Multimedia Signal Processing (MMSP), 2024<br>
 </div>
 </div>
 
-- <span class="badge-text">IDETC-CIE 2022</span> [Design and Modeling of a New Variable Stiffness Robotic Finger Based on Reconfigurable Beam Property Change for Flexible Grasping](https://asmedigitalcollection.asme.org/IDETC-CIE/proceedings/IDETC-CIE2022/86281/V007T07A010/1150568)<br>
+- <span class="badge-text">IDETC-CIE 2022</span> [**Design and Modeling of a New Variable Stiffness Robotic Finger Based on Reconfigurable Beam Property Change for Flexible Grasping**](https://asmedigitalcollection.asme.org/IDETC-CIE/proceedings/IDETC-CIE2022/86281/V007T07A010/1150568)<br>
 **Wei Xu**, Jiaming Fu, Dongming Gan<br>
 ASME International Design Engineering Technical Conferences & Computers and Information in Engineering Conference (IDETC-CIE), 2022
 
-- <span class="badge-text">AI-HRI 2021</span> [Natural Language for Human-Robot Collaboration: Problems Beyond Language Grounding](https://arxiv.org/abs/2110.04441)<br>
+- <span class="badge-text">AI-HRI 2021</span> [**Natural Language for Human-Robot Collaboration: Problems Beyond Language Grounding**](https://arxiv.org/abs/2110.04441)<br>
 Seth Pate, **Wei Xu**, Ziyi Yang, Maxwell Love, Siddarth Ganguri, Lawson L.S. Wong<br>
 AAAI Fall Symposium on Artificial Intelligence for Human-Robot Interaction (AI-HRI), 2021
