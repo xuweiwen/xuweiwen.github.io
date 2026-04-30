@@ -3,6 +3,42 @@
 **A complete list of my publications is available on [Google Scholar](https://scholar.google.com/citations?user=Dc6Eq1cAAAAJ&hl=en)**.
 <div class="custom-divider"></div>
 
+<!-- Non-Learning Low-light Stereo Vision -->
+<div class="paper-box">
+<div class="paper-box-image">
+<div markdown="1">
+<div class="badge-image">ICIP 2026</div>
+![Non-Learning Low-light Stereo Vision cover]({{ "/images/publication-teaser/non-learning_low-light_stereo_vision.png" | relative_url }})
+</div>
+</div>
+<div class="paper-box-text" markdown="1">
+
+Non-Learning Low-light Stereo Vision<br>
+Jason Wang\*, Lucas Nguyen\*, Hyunseung Eom\*, **Wei Xu**, Qi Guo<br>
+IEEE International Conference on Image Processing (ICIP), 2026<br>
+(\*Equal contribution)
+
+</div>
+</div>
+
+<!-- DKO -->
+<div class="paper-box">
+<div class="paper-box-image">
+<div markdown="1">
+<div class="badge-image">ICIP 2026</div>
+![DKO cover]({{ "/images/publication-teaser/dko.png" | relative_url }})
+</div>
+</div>
+<div class="paper-box-text" markdown="1">
+
+[Direct Kernel Optimization: Efficient Design for Opto-Electronic Convolutional Neural Networks](https://arxiv.org/abs/2511.02065)<br>
+Ali Almuallem, Harshana Weligampola, Abhiram Gnanasambandam, **Wei Xu**, Dilshan Godaliyadda, Hamid R. Sheikh, Stanley H. Chan, Qi Guo<br>
+IEEE International Conference on Image Processing (ICIP), 2026<br>
+[[arXiv](https://arxiv.org/abs/2511.02065)]
+
+</div>
+</div>
+
 <!-- MetaSpectra+ -->
 <div class="paper-box">
 <div class="paper-box-image">
