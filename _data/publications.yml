@@ -146,3 +146,24 @@
   highlight: false
   highlight_text: null
   note: null
+
+  - type: featured
+  title: "CT-Bound: Robust Boundary Detection from Noisy Images Via Hybrid Convolution and Transformer Neural Networks"
+  title_short: CT-Bound
+  link: https://ieeexplore.ieee.org/abstract/document/10743517
+  authors: 
+    - name: Wei Xu
+      highlight: true
+    - name: Junjie Luo
+    - name: Qi Guo
+  venue_short: MMSP 2024
+  venue_full: IEEE International Workshop on Multimedia Signal Processing (MMSP), 2024
+  image: /images/publication-teaser/ct-bound.png
+  highlight: false
+  highlight_text: null
+  note: null
+  links: 
+    - name: arXiv
+      url: https://arxiv.org/abs/2403.16494
+    - name: Code
+      url: https://github.com/guo-research-group/CT-Bound
