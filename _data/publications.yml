@@ -12,8 +12,8 @@
     - name: Wei Xu
       highlight: true
     - name: Qi Guo
-  venue_short: ICIP 2026
-  venue_full: IEEE International Conference on Image Processing (ICIP), 2026
+  venue_short: "ICIP 2026"
+  venue_full: "IEEE International Conference on Image Processing (ICIP), 2026"
   image: /images/publication-teaser/non-learning_low-light_stereo_vision.png
   highlight: false
   highlight_text: null
@@ -34,8 +34,8 @@
     - name: Hamid R. Sheikh
     - name: Stanley H. Chan
     - name: Qi Guo
-  venue_short: ICIP 2026
-  venue_full: IEEE International Conference on Image Processing (ICIP), 2026
+  venue_short: "ICIP 2026"
+  venue_full: "IEEE International Conference on Image Processing (ICIP), 2026"
   image: /images/publication-teaser/dko.png
   highlight: false
   highlight_text: null
@@ -55,8 +55,8 @@
       highlight: true
       note: "*"
     - name: Qi Guo
-  venue_short: CVPR 2026
-  venue_full: IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026
+  venue_short: "CVPR 2026"
+  venue_full: "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026"
   image: /images/publication-teaser/metaspectra+.png
   highlight: true
   highlight_text: (oral)
@@ -79,8 +79,8 @@
     - name: Charles James Wagner
     - name: Junjie Luo
     - name: Qi Guo
-  venue_short: CVPR 2025
-  venue_full: IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2025
+  venue_short: "CVPR 2025"
+  venue_full: "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2025"
   image: /images/publication-teaser/blurry-edges.png
   highlight: true
   highlight_text: null
@@ -104,8 +104,8 @@
       highlight: true
     - name: Junjie Luo
     - name: Qi Guo
-  venue_short: MMSP 2024
-  venue_full: IEEE International Workshop on Multimedia Signal Processing (MMSP), 2024
+  venue_short: "MMSP 2024"
+  venue_full: "IEEE International Workshop on Multimedia Signal Processing (MMSP), 2024"
   image: /images/publication-teaser/ct-bound.png
   highlight: false
   highlight_text: null
@@ -124,8 +124,8 @@
       highlight: true
     - name: Jiaming Fu
     - name: Dongming Gan
-  venue_short: IDETC-CIE 2022
-  venue_full: ASME International Design Engineering Technical Conferences & Computers and Information in Engineering Conference (IDETC-CIE), 2022
+  venue_short: "IDETC-CIE 2022"
+  venue_full: "ASME International Design Engineering Technical Conferences & Computers and Information in Engineering Conference (IDETC-CIE), 2022"
   highlight: false
   highlight_text: null
   note: null
@@ -141,8 +141,8 @@
     - name: Maxwell Love
     - name: Siddarth Ganguri
     - name: Lawson L.S. Wong
-  venue_short: AI-HRI 2021
-  venue_full: AAAI Fall Symposium on Artificial Intelligence for Human-Robot Interaction (AI-HRI), 2021
+  venue_short: "AI-HRI 2021"
+  venue_full: "AAAI Fall Symposium on Artificial Intelligence for Human-Robot Interaction (AI-HRI), 2021"
   highlight: false
   highlight_text: null
   note: null
