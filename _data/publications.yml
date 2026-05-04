@@ -4,11 +4,11 @@
   link: 
   authors: 
     - name: Jason Wang
-      note: *
+      note: "*"
     - name: Lucas Nguyen
-      note: *
+      note: "*"
     - name: Hyunseung Eom
-      note: *
+      note: "*"
     - name: Wei Xu
       highlight: true
     - name: Qi Guo
@@ -40,7 +40,7 @@
   highlight: false
   highlight_text: 
   note: 
-  links: >
+  links: 
     - name: arXiv
       url: https://arxiv.org/abs/2511.02065
 
@@ -50,10 +50,10 @@
   link: https://arxiv.org/abs/2603.09116
   authors: 
     - name: Yuxuan Liu
-      note: *
+      note: "*"
     - name: Wei Xu
       highlight: true
-      note: *
+      note: "*"
     - name: Qi Guo
   venue_short: CVPR 2026
   venue_full: IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026
@@ -61,7 +61,7 @@
   highlight: true
   highlight_text: (oral)
   note: (*Equal contribution)
-  links: >
+  links: 
     - name: Project page
       url: https://meta-imaging.qiguo.org/
     - name: arXiv
@@ -85,7 +85,7 @@
   highlight: true
   highlight_text: 
   note: 
-  links: >
+  links: 
     - name: Project page
       url: https://blurry-edges.qiguo.org/
     - name: arXiv
@@ -94,4 +94,25 @@
       url: https://github.com/guo-research-group/Blurry-Edges
     - name: Video
       url: https://youtu.be/ZUqNXTuO0u8
+
+- type: featured
+  title: CT-Bound: Robust Boundary Detection from Noisy Images Via Hybrid Convolution and Transformer Neural Networks
+  title_short: CT-Bound
+  link: https://ieeexplore.ieee.org/abstract/document/10743517
+  authors: 
+    - name: Wei Xu
+      highlight: true
+    - name: Junjie Luo
+    - name: Qi Guo
+  venue_short: MMSP 2024
+  venue_full: IEEE International Workshop on Multimedia Signal Processing (MMSP), 2024
+  image: /images/publication-teaser/ct-bound.png
+  highlight: 
+  highlight_text: 
+  note: 
+  links: 
+    - name: arXiv
+      url: https://arxiv.org/abs/2403.16494
+    - name: Code
+      url: https://github.com/guo-research-group/CT-Bound
 
