@@ -1,6 +1,5 @@
 <li>
-  ::marker
-  <span class="badge-image {% if include.pub.highlight %}badge-image--highlight{% endif %}">
+  <span class="badge-text{% if include.pub.highlight %} badge-text--highlight{% endif %}">
     {{ include.pub.venue_short }}
   </span>
   {% if include.pub.link %}
@@ -9,22 +8,22 @@
     {{ include.pub.title }}
   {% endif %}
   <br>
-  {% for author in include.pub.authors %}
-    {% if author.highlight %}
+  {% for author in include.pub.authors -%}
+    {% if author.highlight -%}
       <span class="highlight-author">{{ author.name }}</span>
-    {% else %}
+    {%- else -%}
       {{ author.name }}
-    {% endif %}
-    {% if author.note %}{{ author.note }}{% endif %}
-    {% unless forloop.last %}, {% endunless %}
-  {% endfor %}
+    {%- endif -%}
+    {%- if author.note -%}{{ author.note }}{%- endif -%}
+    {%- unless forloop.last -%}, {% endunless -%}
+  {%- endfor %}
   <br>
   {{ include.pub.venue_full }}
   {% if include.pub.highlight_text %}
     <span class="highlight-text">{{ include.pub.highlight_text }}</span>
   {% endif %}
-  <br>
   {% if include.pub.note %}
-    {{ include.pub.note }}<br>
+    <br>
+    {{ include.pub.note }}
   {% endif %}
 </li>

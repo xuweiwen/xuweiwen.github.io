@@ -1,4 +1,4 @@
-<div class="paper-box {% if include.is_last %}paper-box--last{% endif %}">
+<div class="paper-box{% if include.is_last %} paper-box--last{% endif %}">
   <div class="paper-box-image">
     <div class="badge-image {% if include.pub.highlight %}badge-image--highlight{% endif %}">
       {{ include.pub.venue_short }}
@@ -16,30 +16,31 @@
       {{ include.pub.title }}
     {% endif %}
     <br>
-    {% for author in include.pub.authors %}
-      {% if author.highlight %}
+    {% for author in include.pub.authors -%}
+      {% if author.highlight -%}
         <span class="highlight-author">{{ author.name }}</span>
-      {% else %}
+      {%- else -%}
         {{ author.name }}
-      {% endif %}
-      {% if author.note %}{{ author.note }}{% endif %}
-      {% unless forloop.last %}, {% endunless %}
-    {% endfor %}
+      {%- endif -%}
+      {%- if author.note -%}{{ author.note }}{%- endif -%}
+      {%- unless forloop.last -%}, {% endunless -%}
+    {%- endfor %}
     <br>
     {{ include.pub.venue_full }}
     {% if include.pub.highlight_text %}
       <span class="highlight-text">{{ include.pub.highlight_text }}</span>
     {% endif %}
-    <br>
 
     {% if include.pub.note %}
-      {{ include.pub.note }}<br>
+      <br>
+      {{ include.pub.note }}
     {% endif %}
 
     {% if include.pub.links %}
-      {% for link in include.pub.links %}
+      <br>
+      {% for link in include.pub.links -%}
         [<a href="{{ link.url }}">{{ link.name }}</a>]{% unless forloop.last %} {% endunless %}
-      {% endfor %}
+      {%- endfor %}
     {% endif %}
     <br>
   </div>
