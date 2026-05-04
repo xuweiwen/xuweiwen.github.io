@@ -18,7 +18,8 @@
   {% if pub.type == "simple" %}
     {% include publication-simple.html pub=pub %}
   {% else %}
-    {% include publication-featured.html pub=pub is_last=forloop.last border_top=(prev_type == "simple") %}
+    {% assign border_top = (prev_type == "simple") %}
+    {% include publication-featured.html pub=pub is_last=forloop.last border_top=border_top %}
   {% endif %}
   {% if pub.type == "simple" and forloop.last %}
     </ul>
