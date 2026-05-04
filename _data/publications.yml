@@ -1,7 +1,7 @@
 - type: featured
-  title: Non-Learning Low-light Stereo Vision
-  title_short: 
-  link: 
+  title: "Non-Learning Low-light Stereo Vision"
+  title_short: null
+  link: null
   authors: 
     - name: Jason Wang
       note: "*"
@@ -16,9 +16,9 @@
   venue_full: IEEE International Conference on Image Processing (ICIP), 2026
   image: /images/publication-teaser/non-learning_low-light_stereo_vision.png
   highlight: false
-  highlight_text: 
-  note: (*Equal contribution)
-  links: 
+  highlight_text: null
+  note: "(*Equal contribution)"
+  links: []
 
 - type: featured
   title: "Direct Kernel Optimization: Efficient Design for Opto-Electronic Convolutional Neural Networks"
@@ -38,8 +38,8 @@
   venue_full: IEEE International Conference on Image Processing (ICIP), 2026
   image: /images/publication-teaser/dko.png
   highlight: false
-  highlight_text: 
-  note: 
+  highlight_text: null
+  note: null
   links: 
     - name: arXiv
       url: https://arxiv.org/abs/2511.02065
@@ -60,7 +60,7 @@
   image: /images/publication-teaser/metaspectra+.png
   highlight: true
   highlight_text: (oral)
-  note: (*Equal contribution)
+  note: "(*Equal contribution)"
   links: 
     - name: Project page
       url: https://meta-imaging.qiguo.org/
@@ -83,8 +83,8 @@
   venue_full: IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2025
   image: /images/publication-teaser/blurry-edges.png
   highlight: true
-  highlight_text: 
-  note: 
+  highlight_text: null
+  note: null
   links: 
     - name: Project page
       url: https://blurry-edges.qiguo.org/
@@ -107,9 +107,9 @@
   venue_short: MMSP 2024
   venue_full: IEEE International Workshop on Multimedia Signal Processing (MMSP), 2024
   image: /images/publication-teaser/ct-bound.png
-  highlight: 
-  highlight_text: 
-  note: 
+  highlight: false
+  highlight_text: null
+  note: null
   links: 
     - name: arXiv
       url: https://arxiv.org/abs/2403.16494
@@ -117,7 +117,7 @@
       url: https://github.com/guo-research-group/CT-Bound
 
 - type: simple
-  title: Design and Modeling of a New Variable Stiffness Robotic Finger Based on Reconfigurable Beam Property Change for Flexible Grasping
+  title: "Design and Modeling of a New Variable Stiffness Robotic Finger Based on Reconfigurable Beam Property Change for Flexible Grasping"
   link: https://asmedigitalcollection.asme.org/IDETC-CIE/proceedings/IDETC-CIE2022/86281/V007T07A010/1150568
   authors: 
     - name: Wei Xu
@@ -126,6 +126,23 @@
     - name: Dongming Gan
   venue_short: IDETC-CIE 2022
   venue_full: ASME International Design Engineering Technical Conferences & Computers and Information in Engineering Conference (IDETC-CIE), 2022
-  highlight: 
-  highlight_text: 
-  note: 
+  highlight: false
+  highlight_text: null
+  note: null
+
+- type: simple
+  title: "Natural Language for Human-Robot Collaboration: Problems Beyond Language Grounding"
+  link: https://arxiv.org/abs/2110.04441
+  authors: 
+    - name: Seth Pate
+    - name: Wei Xu
+      highlight: true
+    - name: Ziyi Yang
+    - name: Maxwell Love
+    - name: Siddarth Ganguri
+    - name: Lawson L.S. Wong
+  venue_short: AI-HRI 2021
+  venue_full: AAAI Fall Symposium on Artificial Intelligence for Human-Robot Interaction (AI-HRI), 2021
+  highlight: false
+  highlight_text: null
+  note: null
