@@ -125,6 +125,9 @@
     &--last {
       border-bottom: none;
     }
+    &--border-top {
+      border-top: 1px solid var(--border-color);
+    }
   }
   
   .paper-box-text {

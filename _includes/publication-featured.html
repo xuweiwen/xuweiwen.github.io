@@ -1,4 +1,4 @@
-<div class="paper-box{% if include.is_last %} paper-box--last{% endif %}">
+<div class="paper-box{% if include.is_last %} paper-box--last{% endif %}{% if include.border_top %} paper-box--border-top{% endif %}">
   <div class="paper-box-image">
     <div class="badge-image {% if include.pub.highlight %}badge-image--highlight{% endif %}">
       {{ include.pub.venue_short }}
