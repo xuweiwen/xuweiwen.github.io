@@ -112,7 +112,7 @@
   .paper-box-image {
     width: 100%;
     order: 1;
-    margin: $space-var 0px;
+    margin: $space-var 0;
     img {
       width: 100%;
       max-width: 300px;
@@ -126,7 +126,7 @@
   .paper-box-text {
     max-width: 100%;
     order: 2;
-    margin: $space-var 0px;
+    margin: 0 0 $space-var 0;
   }
   
   @include breakpoint($medium) {
@@ -139,7 +139,7 @@
       padding-left: 2em;
       max-width: 70%;
       p {
-        margin: $space-var 0;
+        margin-top: $space-var;
       }
     }
   }
@@ -180,6 +180,21 @@
   &--highlight {
     background-color: var(--highlight-color);
   }
+}
+
+.pub-title,
+.pub-authors,
+.pub-venue,
+.pub-note,
+.pub-links {
+  display: block;
+}
+
+.pub-authors,
+.pub-venue,
+.pub-note,
+.pub-links {
+  margin-top: 0.25rem;
 }
 
 .highlight-text {
