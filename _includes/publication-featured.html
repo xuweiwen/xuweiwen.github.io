@@ -10,12 +10,14 @@
   </div>
 
   <div class="paper-box-text">
-    {% if include.pub.link %}
-      <a class="pub-title" href="{{ include.pub.link }}">{{ include.pub.title }}</a>
-    {% else %}
-      <span class="pub-title">{{ include.pub.title }}</span>
-    {% endif %}
-    
+    <div class="pub-title">
+      {% if include.pub.link %}
+        <a href="{{ include.pub.link }}">{{ include.pub.title }}</a>
+      {% else %}
+        {{ include.pub.title }}
+      {% endif %}
+    </div>
+
     <div class="pub-authors">
       {% for author in include.pub.authors -%}
         {% if author.highlight -%}
@@ -27,9 +29,9 @@
         {%- unless forloop.last -%}, {% endunless -%}
       {%- endfor %}
     </div>
-    
+
     <div class="pub-venue">
-      {{ include.pub.venue_full }}
+      {{ include.pub.venue }}
       {% if include.pub.highlight_text %}
         <span class="highlight-text">{{ include.pub.highlight_text }}</span>
       {% endif %}

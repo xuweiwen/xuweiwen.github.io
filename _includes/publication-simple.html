@@ -1,12 +1,14 @@
 <li>
-  <span class="badge-text{% if include.pub.highlight %} badge-text--highlight{% endif %}">
-    {{ include.pub.venue_short }}
-  </span>
-  {% if include.pub.link %}
-    <a class="pub-title" href="{{ include.pub.link }}">{{ include.pub.title }}</a>
-  {% else %}
-    <span class="pub-title">{{ include.pub.title }}</span>
-  {% endif %}
+  <div class="pub-title">
+    <span class="badge-text{% if include.pub.highlight %} badge-text--highlight{% endif %}">
+      {{ include.pub.venue_short }}
+    </span>
+    {% if include.pub.link %}
+      <a href="{{ include.pub.link }}">{{ include.pub.title }}</a>
+    {% else %}
+      {{ include.pub.title }}
+    {% endif %}
+  </div>
 
   <div class="pub-authors">
     {% for author in include.pub.authors -%}
@@ -21,7 +23,7 @@
   </div>
 
   <div class="pub-venue">
-    {{ include.pub.venue_full }}
+    {{ include.pub.venue }}
     {% if include.pub.highlight_text %}
       <span class="highlight-text">{{ include.pub.highlight_text }}</span>
     {% endif %}
