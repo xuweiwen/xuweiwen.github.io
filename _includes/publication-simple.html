@@ -1,0 +1,28 @@
+<li>
+  ::marker
+  <span class="badge-text">{{ include.pub.venue_short }}</span>
+  {% if include.pub.link %}
+    <a href="{{ include.pub.link }}">{{ include.pub.title }}</a>
+  {% else %}
+    {{ include.pub.title }}
+  {% endif %}
+  <br>
+  {% for author in include.pub.authors %}
+    {% if author.highlight %}
+      <span class="highlight-author">{{ author.name }}</span>
+    {% else %}
+      {{ author.name }}
+    {% endif %}
+    {% if author.note %}{{ author.note }}{% endif %}
+    {% unless forloop.last %}, {% endunless %}
+  {% endfor %}
+  <br>
+  {{ include.pub.venue_full }}
+  {% if include.pub.highlight_text %}
+    <span class="highlight-text">{{ include.pub.highlight_text }}</span>
+  {% endif %}
+  <br>
+  {% if include.pub.note %}
+    {{ include.pub.note }}<br>
+  {% endif %}
+</li>

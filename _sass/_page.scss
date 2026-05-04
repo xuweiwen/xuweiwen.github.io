@@ -123,6 +123,10 @@
       border-radius: $border-radius;
       background-color: #fff;
     }
+
+    &--last {
+      border-bottom: none;
+    }
   }
   
   .paper-box-text {
@@ -179,6 +183,10 @@
 .highlight-text {
   color: var(--highlight-color);
   font-weight: 500;
+}
+
+.highlight-author {
+  font-weight: bold;
 }
 
 .custom-divider {

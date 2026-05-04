@@ -3,6 +3,33 @@
 **A complete list of my publications is available on [Google Scholar](https://scholar.google.com/citations?user=Dc6Eq1cAAAAJ&hl=en)**.
 <div class="custom-divider"></div>
 
+{% assign prev_type = nil %}
+
+{% for pub in site.data.publications %}
+  {% if pub.type != prev_type %}
+    {% if prev_type == "simple" %}
+      </ul>
+    {% endif %}
+    {% if pub.type == "simple" %}
+      <ul>
+    {% endif %}
+  {% endif %}
+  {% if pub.type == "simple" %}
+    {% include publication-simple.html pub=pub %}
+  {% else %}
+    {% include publication-featured.html pub=pub is_last=forloop.last %}
+  {% endif %}
+  {% if pub.type == "simple" and forloop.last %}
+    </ul>
+  {% endif %}
+  {% assign prev_type = pub.type %}
+{% endfor %}
+
+
+
+
+
+
 <!-- Non-Learning Low-light Stereo Vision -->
 <div class="paper-box">
 <div class="paper-box-image">
