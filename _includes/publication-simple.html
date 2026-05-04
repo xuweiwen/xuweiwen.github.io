@@ -1,6 +1,8 @@
 <li>
   ::marker
-  <span class="badge-text">{{ include.pub.venue_short }}</span>
+  <span class="badge-image {% if include.pub.highlight %}badge-image--highlight{% endif %}">
+    {{ include.pub.venue_short }}
+  </span>
   {% if include.pub.link %}
     <a href="{{ include.pub.link }}">{{ include.pub.title }}</a>
   {% else %}
