@@ -1,6 +1,6 @@
 <h2 id="news">{% include icon.html name="fire" %} News</h2>
 
-- [May 2026] I am joining ByteDance this summer as a research scientist intern.
+- [May 2026] I will be joining ByteDance as a Research Scientist Intern for the summer.
 - [Apr. 2026] Two papers were accepted at ICIP 2026. 
 - [Feb. 2026] Our paper *MetaSpectra+* was accepted at CVPR 2026 (Oral). 
 - [Apr. 2025] Our work on CT-Bound was featured in [Purdue News](https://www.purdue.edu/newsroom/2025/Q2/new-imaging-technologies-achieve-real-time-boundary-detection-single-shot-high-dynamic-range-imaging/). 
