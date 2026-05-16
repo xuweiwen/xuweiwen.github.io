@@ -1,4 +1,25 @@
 - type: featured
+  title: "Depth from Dual Differential Defocus and Stereo (D<sup>3</sup>S) Consensus"
+  title_short: "D<sup>3</sup>S"
+  link: null
+  authors: 
+    - name: Junjie Luo
+      note: "*"
+    - name: Wei Xu
+      highlight: true
+      note: "*"
+    - name: Dylan Chu
+    - name: Emma Alexander
+    - name: Qi Guo
+  venue: "Under review"
+  venue_short: "Under review"
+  image: /images/publication-teaser/d3s.png
+  highlight: false
+  highlight_text: null
+  note: "(*Equal contribution)"
+  links: []
+
+- type: featured
   title: "Non-Learning Low-light Stereo Vision"
   title_short: null
   link: null
