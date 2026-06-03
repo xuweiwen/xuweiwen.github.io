@@ -1,5 +1,6 @@
 <h2 id="news">{% include icon.html name="fire" %} News</h2>
 
+- [June 2026] I will be joining Google as a Student Researcher for this fall.
 - [Apr. 2026] Two papers were accepted at ICIP 2026. 
 - [Feb. 2026] Our paper *MetaSpectra+* was accepted at CVPR 2026 (Oral). 
 - [Apr. 2025] Our work on CT-Bound was featured in [Purdue News](https://www.purdue.edu/newsroom/2025/Q2/new-imaging-technologies-achieve-real-time-boundary-detection-single-shot-high-dynamic-range-imaging/). 

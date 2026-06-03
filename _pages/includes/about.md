@@ -6,6 +6,6 @@ Prior to Purdue, I completed my M.S. in [Khoury College of Computer Sciences](ht
 
 <p>{% include icon.html name="file" %} Download my <a href="#" class="show-notice-link" data-target="CV">curriculum vitae</a>.</p>
 <div id="CV" class="notice--info hidden" markdown="1">
-#### Heads up!
-My curriculum vitae is available upon request. Thank you for your interest!
+#### Curriculum Vitae
+My CV is available upon request. Thank you for your interest!
 </div>

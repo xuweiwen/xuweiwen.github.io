@@ -1,7 +1,28 @@
 - type: featured
+  title: "Depth from Dual Differential Defocus and Stereo (D<sup>3</sup>S) Consensus"
+  title_short: "D<sup>3</sup>S"
+  link: null
+  authors: 
+    - name: Junjie Luo
+      note: "*"
+    - name: Wei Xu
+      highlight: true
+      note: "*"
+    - name: Dylan Chu
+    - name: Emma Alexander
+    - name: Qi Guo
+  venue: "Under review"
+  venue_short: "Under review"
+  image: /images/publication-teaser/d3s.png
+  highlight: false
+  highlight_text: null
+  note: "(*Equal contribution)"
+  links: []
+
+- type: featured
   title: "Non-Learning Low-light Stereo Vision"
   title_short: null
-  link: null
+  link: https://icip2026.exordo.com/files/papers/2930/paper_custom_fields/48/2026172080.pdf
   authors: 
     - name: Jason Wang
       note: "*"
@@ -18,7 +39,11 @@
   highlight: false
   highlight_text: null
   note: "(*Equal contribution)"
-  links: []
+  links: 
+    - name: Supp
+      url: https://icip2026.exordo.com/files/papers/2930/paper_custom_fields/49/2026172101.pdf
+    - name: Code
+      url: https://github.com/guo-research-group/nonlearning-lowlight-stereo
 
 - type: featured
   title: "Direct Kernel Optimization: Efficient Design for Opto-Electronic Convolutional Neural Networks"
@@ -59,7 +84,7 @@
   venue_short: "CVPR 2026"
   image: /images/publication-teaser/metaspectra+.png
   highlight: true
-  highlight_text: (oral)
+  highlight_text: (Oral, Best Paper Award Candidate)
   note: "(*Equal contribution)"
   links: 
     - name: Project page

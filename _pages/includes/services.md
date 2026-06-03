@@ -5,9 +5,8 @@
   - IEEE Transactions on Computational Imaging (TCI)
   - IEEE Open Journal of Signal Processing (OJSP)
   - IEEE Transactions on Image Processing (TIP)
-- *TC Reviewer*
-  - IEEE SPS Multimedia Signal Processing Technical Committee (MMSP TC)
 - *Conference Reviewer*
+  - IEEE International Workshop on Multimedia Signal Processing (MMSP)
   - IEEE International Conference on Image Processing (ICIP)
   - IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)
   - IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
