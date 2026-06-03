@@ -1,7 +1,7 @@
 - type: featured
   title: "Depth from Dual Differential Defocus and Stereo (D<sup>3</sup>S) Consensus"
   title_short: "D<sup>3</sup>S"
-  link: null
+  link: https://arxiv.org/abs/2606.02906v1
   authors: 
     - name: Junjie Luo
       note: "*"
@@ -11,18 +11,22 @@
     - name: Dylan Chu
     - name: Emma Alexander
     - name: Qi Guo
-  venue: "Under review"
-  venue_short: "Under review"
+  venue: "arXiv 2026"
+  venue_short: "arXiv 2026"
   image: /images/publication-teaser/d3s.png
   highlight: false
   highlight_text: null
   note: "(*Equal contribution)"
-  links: []
+  links: 
+    - name: Project page
+      url: https://d3s.qiguo.org/
+    - name: arXiv
+      url: https://arxiv.org/abs/2606.02906v1
 
 - type: featured
   title: "Non-Learning Low-light Stereo Vision"
   title_short: null
-  link: https://icip2026.exordo.com/files/papers/2930/paper_custom_fields/48/2026172080.pdf
+  link: https://arxiv.org/abs/2606.00379
   authors: 
     - name: Jason Wang
       note: "*"
@@ -40,8 +44,8 @@
   highlight_text: null
   note: "(*Equal contribution)"
   links: 
-    - name: Supp
-      url: https://icip2026.exordo.com/files/papers/2930/paper_custom_fields/49/2026172101.pdf
+    - name: arXiv
+      url: https://arxiv.org/abs/2606.00379
     - name: Code
       url: https://github.com/guo-research-group/nonlearning-lowlight-stereo
 
