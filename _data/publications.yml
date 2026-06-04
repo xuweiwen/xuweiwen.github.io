@@ -76,7 +76,7 @@
 - type: featured
   title: "MetaSpectra+: A Compact Broadband Metasurface Camera for Snapshot Hyperspectral+ Imaging"
   title_short: "MetaSpectra+"
-  link: https://arxiv.org/abs/2603.09116
+  link: https://openaccess.thecvf.com/content/CVPR2026/html/Liu_MetaSpectra_A_Compact_Broadband_Metasurface_Camera_for_Snapshot_Hyperspectral_Imaging_CVPR_2026_paper.html
   authors: 
     - name: Yuxuan Liu
       note: "*"
