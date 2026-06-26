@@ -10,5 +10,5 @@
   - IEEE International Conference on Image Processing (ICIP)
   - IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)
   - IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
-- *Student volunteer*
+- *Student Volunteer*
   - IEEE International Conference on Computational Photography (ICCP)
