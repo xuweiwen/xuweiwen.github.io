@@ -6,7 +6,6 @@
   - IEEE Open Journal of Signal Processing (OJSP)
   - IEEE Transactions on Image Processing (TIP)
 - *Conference Reviewer*
-  - IEEE International Workshop on Multimedia Signal Processing (MMSP)
   - IEEE International Conference on Image Processing (ICIP)
   - IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)
   - IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
