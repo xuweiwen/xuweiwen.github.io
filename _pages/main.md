@@ -7,7 +7,7 @@ permalink: /
 
 {% include_relative includes/news.md %}
 
-<!-- {% include_relative includes/work_experience.md %} -->
+{% include_relative includes/work_experience.md %}
 
 {% include_relative includes/publications.md %}
 
