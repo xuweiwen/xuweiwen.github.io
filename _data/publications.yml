@@ -26,7 +26,7 @@
 - type: featured
   title: "Non-Learning Low-light Stereo Vision"
   title_short: null
-  link: https://arxiv.org/abs/2606.00379
+  link: https://ieeexplore.ieee.org/document/11630409
   authors: 
     - name: Jason Wang
       note: "*"
@@ -52,7 +52,7 @@
 - type: featured
   title: "Direct Kernel Optimization: Efficient Design for Opto-Electronic Convolutional Neural Networks"
   title_short: "DKO"
-  link: https://arxiv.org/abs/2511.02065
+  link: https://ieeexplore.ieee.org/document/11630055
   authors: 
     - name: Ali Almuallem
     - name: Harshana Weligampola
